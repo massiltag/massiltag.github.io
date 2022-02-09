@@ -1,10 +1,11 @@
 export interface WorkExperience {
-  work: Work[];
+  history: Work[];
 }
 
 export interface Work {
-  date: string;
   title: string;
+  employer: string;
+  date: string;
   description: string;
   stack: string[];
 }

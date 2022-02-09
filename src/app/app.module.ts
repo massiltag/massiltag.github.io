@@ -8,12 +8,19 @@ import { HeadingComponent } from './components/content/heading/heading.component
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {NgxNavbarModule} from "ngx-bootstrap-navbar";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { ExperienceComponent } from './components/content/experience/experience.component';
+import { TitleComponent } from './components/layout/title/title.component';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { DegreesComponent } from './components/content/degrees/degrees.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    HeadingComponent
+    HeadingComponent,
+    ExperienceComponent,
+    TitleComponent,
+    DegreesComponent
   ],
   imports: [
     BrowserModule,
@@ -21,6 +28,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     HttpClientModule,
     BrowserAnimationsModule,
     NgxNavbarModule,
+    AccordionModule.forRoot(),
   ],
   providers: [ HttpClient ],
   bootstrap: [AppComponent]

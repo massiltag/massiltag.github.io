@@ -1,6 +1,8 @@
+@import "src/styles.scss";
+
 .heading {
-  // border: 2px solid white;
   height: calc(100vh - 100px);
+  margin-top: 100px;
 
   .text {
     margin-top: 10vw;
@@ -13,7 +15,7 @@
     .name { color: var(--lightest-slate); }
     .title { color: var(--slate); }
     .name, .title {
-      font-family: -apple-system,system-ui,sans-serif;
+      font-family: -apple-system, system-ui, sans-serif;
       font-weight: 600;
     }
 
@@ -23,15 +25,19 @@
       margin-top: 15px;
     }
 
+    .go-down {
+      text-decoration: none;
+      i { font-size: 64px; }
+    }
   }
 }
 
-@media (max-width: 800px)  {
+@media (max-width: $breakpoint)  {
   .name, .title { font-size: 8vw; }
   .about { width: 100%; }
 }
 
-@media (min-width: 800px)  {
+@media (min-width: $breakpoint)  {
   .name, .title { font-size: 64px; }
   .about { width: 60vw; }
 }

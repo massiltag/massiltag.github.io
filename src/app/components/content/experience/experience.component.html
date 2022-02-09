@@ -1,0 +1,37 @@
+<div class="experience">
+
+    <app-title id="title01" [number]="'01'" [title]="'Expérience'"></app-title>
+
+    <div class="container">
+
+        <div class="tabs">
+            <a *ngFor="let w of work.history"
+               class="tab {{ work.history.indexOf(w) + 1 }}" id="header-{{ work.history.indexOf(w) + 1 }}"
+               [ngClass]="{ 'active': activeTab == work.history.indexOf(w) + 1 }"
+               (click)="activeTab = work.history.indexOf(w) + 1"
+            >
+                {{ w.employer }}
+            </a>
+
+            <span class="highlighter"></span>
+
+        </div>
+
+        <div class="content">
+
+            <div *ngFor="let w of work.history"
+                 class="content-section"
+                 id="content-{{ work.history.indexOf(w) + 1 }}"
+                 [ngClass]="{ 'visible': activeTab == work.history.indexOf(w) + 1 }"
+            >
+                <h3 class="apple-system">{{ w.title }}</h3>
+                <p class="date text-muted">{{ w.date }}</p>
+                <p>{{ w.description }}</p>
+                <div class="skills">
+                    <span class="skill code" *ngFor="let s of w.stack">{{ s }}</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
