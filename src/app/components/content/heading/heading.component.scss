@@ -1,0 +1,37 @@
+.heading {
+  // border: 2px solid white;
+  height: calc(100vh - 100px);
+
+  .text {
+    margin-top: 10vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    width: fit-content;
+
+    * { display: block }
+
+    .name { color: var(--lightest-slate); }
+    .title { color: var(--slate); }
+    .name, .title {
+      font-family: -apple-system,system-ui,sans-serif;
+      font-weight: 600;
+    }
+
+    .about {
+      color: var(--slate);
+      text-align: justify;
+      margin-top: 15px;
+    }
+
+  }
+}
+
+@media (max-width: 800px)  {
+  .name, .title { font-size: 8vw; }
+  .about { width: 100%; }
+}
+
+@media (min-width: 800px)  {
+  .name, .title { font-size: 64px; }
+  .about { width: 60vw; }
+}
