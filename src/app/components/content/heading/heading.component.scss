@@ -12,11 +12,11 @@
 
     * { display: block }
 
-    .name { color: var(--lightest-slate); }
+    .name { color: var(--lightest-slate); margin-top: 2vh }
     .title { color: var(--slate); }
     .name, .title {
-      font-family: -apple-system, system-ui, sans-serif;
       font-weight: 600;
+      line-height: 100%;
     }
 
     .about {
@@ -38,6 +38,7 @@
 }
 
 @media (min-width: $breakpoint)  {
-  .name, .title { font-size: 64px; }
+  .intro { margin-left: 3.5px }
+  .name, .title { font-size: 80px; }
   .about { width: 60vw; }
 }

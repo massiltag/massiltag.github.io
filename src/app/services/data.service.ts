@@ -9,19 +9,19 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getProfile(): Promise<any> {
-    return this.http.get('assets/profile.json').toPromise();
+    return this.http.get('assets/json/profile.json').toPromise();
   }
 
   getSkills(): Promise<any> {
-    return this.http.get('assets/skills.json').toPromise();
+    return this.http.get('assets/json/skills.json').toPromise();
   }
 
   getWorkExperience(): Promise<any> {
-    return this.http.get('assets/work-experience.json').toPromise();
+    return this.http.get('assets/json/work-experience.json').toPromise();
   }
 
   getProjects(): Promise<any> {
-    return this.http.get('assets/projects.json').toPromise();
+    return this.http.get('assets/json/projects.json').toPromise();
   }
 
 }

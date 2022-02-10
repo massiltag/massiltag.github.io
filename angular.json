@@ -32,6 +32,7 @@
             ],
             "styles": [
               "src/styles.scss",
+              "src/assets/fonts/calibre/font.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css"
             ],

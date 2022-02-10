@@ -2,14 +2,20 @@
 
     <app-title id="title02" [number]="'02'" [title]="'Diplômes'"></app-title>
 
-    <accordion [isAnimated]="true">
-        <accordion-group heading="Université Paris I Panthéon Sorbonne">
-            This content is straight in the template.
-        </accordion-group>
-        <accordion-group heading="Sorbonne Université">
-            <p>Some content</p>
-        </accordion-group>
-    </accordion>
+    <div class="container">
+        <div class="card flex-row flex-wrap" *ngFor="let d of degrees">
+            <div class="card-header border-0">
+                <img class="logo" src="../../../../assets/img/{{ d.img }}" alt="">
+            </div>
+            <div class="card-block px-2">
+                <h4 class="card-title">{{ d.title }} <span class="year">{{ d.year }}</span></h4>
+                <p class="card-text">{{ d.data }}</p>
+                <ul *ngIf="d.content.length" class="calibre">
+                    <li *ngFor="let c of d.content">{{ c }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
 
 </div>

@@ -23,17 +23,36 @@ export class AppComponent implements OnInit {
   }
 
   async ngOnInit(): Promise<void> {
-    this.profile = await this.dataService.getProfile();
-    console.log('PROFILE', this.profile);
+    this.smoothScroll();
+    try {
+      this.profile = await this.dataService.getProfile();
+      console.log('PROFILE', this.profile);
 
-    this.work = await this.dataService.getWorkExperience();
-    console.log('WORK', this.work);
+      this.work = await this.dataService.getWorkExperience();
+      console.log('WORK', this.work);
 
-    this.skills = await this.dataService.getSkills();
-    console.log('SKILLS', this.skills);
+      this.skills = await this.dataService.getSkills();
+      console.log('SKILLS', this.skills);
 
-    this.projects = await this.dataService.getProjects();
-    console.log('PROJECTS', this.dataService);
+      this.projects = await this.dataService.getProjects();
+      console.log('PROJECTS', this.dataService);
+    } catch (e) {
+      console.log(e);
+    }
   }
+
+  smoothScroll(): void {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // @ts-ignore
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  }
+
 
 }

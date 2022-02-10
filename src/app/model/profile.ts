@@ -5,15 +5,17 @@ export interface Profile {
   title: string;
   phone: string;
   avatar: string;
-  education: Education[];
+  degrees: Degree[];
   about: string;
   socials: Social[];
 }
 
-export interface Education {
+export interface Degree {
   title: string;
   year: string;
-  meta: string;
+  data: string;
+  content: string[];
+  img: string;
 }
 
 export interface Social {

@@ -5,16 +5,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-BlackItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-RegularItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-RegularItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-RegularItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-RegularItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Semibold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Semibold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Semibold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-SemiboldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-SemiboldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-SemiboldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-SemiboldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-ThinItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-ThinItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/Calibre-ThinItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/calibre/font.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/SU-slate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/UP1-slate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/13.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/14.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/15.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/16.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/17.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/9.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/degrees/degrees.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/degrees/degrees.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/degrees/degrees.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/degrees/degrees.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/degrees/degrees.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/degrees/degrees.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/model/work-experience.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/work-experience.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/work-experience.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/work-experience.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/layout/title/title.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/title/title.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/layout/title/title.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/title/title.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/model/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/data.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/profile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/projects.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/skills.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/work-experience.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/work-experience.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +139,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/fonts/calibre" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/fonts/calibre" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/assets/json" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/app/components/layout" />
     </key>
@@ -62,6 +158,7 @@
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (portfolio)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
       <working-directory value="$PROJECT_DIR$" />
       <node-interpreter value="project" />
       <envs />
@@ -95,7 +192,8 @@
       <workItem from="1644370812225" duration="31000" />
       <workItem from="1644370844424" duration="145000" />
       <workItem from="1644410653631" duration="1044000" />
-      <workItem from="1644413071965" duration="13065000" />
+      <workItem from="1644413071965" duration="13215000" />
+      <workItem from="1644486089425" duration="11673000" />
     </task>
     <task id="LOCAL-00001" summary="add project files">
       <created>1644370655966</created>
@@ -104,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644370655967</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add experience &amp; degrees components">
+      <created>1644428982315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644428982315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +229,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project files" />
+    <MESSAGE value="add experience &amp; degrees components" />
+    <option name="LAST_COMMIT_MESSAGE" value="add experience &amp; degrees components" />
   </component>
 </project>

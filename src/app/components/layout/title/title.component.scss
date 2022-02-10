@@ -3,7 +3,7 @@
 .title {
   font-size: 24px;
   display: block;
-  margin: auto;
+  margin: auto 10vw;
 
   &-text {
     font-weight: 700;
@@ -22,12 +22,12 @@
 
 
 @media (min-width: $breakpoint) {
-  .title { width: 900px; }
+  .title { width: 80%; }
 }
 
 @media (max-width: $breakpoint) {
   .title {
-    width: 100%;
+    width: 94vw;
     margin-left: 6vw;
   }
 }

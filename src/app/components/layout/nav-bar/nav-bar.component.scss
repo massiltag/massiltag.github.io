@@ -1,11 +1,13 @@
+@import "src/styles.scss";
+
 .bar {
-  width: 100%;
+  width: 100vw;
   height: 70px;
   background: var(--navy);
   box-shadow: 0px 15px 10px -15px #111;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   transition: all 350ms ease-in-out;
 
   .avatar {
@@ -17,6 +19,7 @@
   nav {
     height: inherit;
     background: unset!important;
+    margin-right: 0!important;
 
     button {
       color: white;
@@ -38,6 +41,10 @@
           a { color: #0a192f!important; }
         }
       }
+
+      #dl {
+        border-radius: 50px;
+      }
     }
 
 
@@ -45,13 +52,13 @@
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: $breakpoint) {
   nav ul {
     background: #0a192f;
     border: 2px solid white;
     padding: 5px;
     margin-top: 60px;
-    margin-right: 2vh;
+    margin-right: 0;
     width: 170px;
     li {
       margin-right: 0!important;

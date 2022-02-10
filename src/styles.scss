@@ -16,6 +16,7 @@ body {
   margin: 5px;
   height: 100%;
   font-weight: 500;
+  scroll-behavior: smooth;
 }
 
 .accent {
@@ -26,8 +27,8 @@ body {
   font-family: "Source Code Pro", monospace!important;
 }
 
-.apple-system {
-  font-family: -apple-system, system-ui, sans-serif;
+.calibre {
+  font-family: "Calibre", -apple-system, system-ui, sans-serif;
 }
 
 /* Importing Bootstrap SCSS file. */

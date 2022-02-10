@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Education} from "../../../model/profile";
+import {Degree} from "../../../model/profile";
 
 @Component({
   selector: 'app-degrees',
@@ -7,7 +7,7 @@ import {Education} from "../../../model/profile";
   styleUrls: ['./degrees.component.scss']
 })
 export class DegreesComponent implements OnInit {
-  @Input() education!: Education[];
+  @Input() degrees!: Degree[];
 
   constructor() { }
 
