@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "name": "Entreprenariat",
+      "date": "2022",
+      "description": "Projet de création d'entreprise dans des conditions réelles. En tutorat avec l'entreprise PIVOD et l'association MIAGE Entrepreneurs.",
+      "link": ""
+    },
+    {
+      "name": "Ce Portfolio",
+      "date": "2022",
+      "description": "Réalisé \"from scratch\" avec Angular 13. Disponible sur GitHub pour réutilisation.",
+      "link": "https://github.com/massiltag/portfolio"
+    },
+    {
+      "name": "InfoCovid",
+      "date": "2021",
+      "description": "Développement d'une application WEB fullstack pour la surveillance des indicateurs liés à la COVID-19 et intégration d'un modèle de prévisions. Angular 11 + Angular Material, Spring Boot 2.4, MongoDB, Maven, JUnit.",
+      "link": "https://github.com/massiltag/infocovid"
+    },
+    {
+      "name": "Infogare",
+      "date": "2021",
+      "description": "Conception d'un système d'information voyageur à l'aide des différents frameworks de la spécification Jakarta EE (JPA, JAXB, CDI, JMS, JAX-RS - Jersey).",
+      "link": "https://github.com/massiltag/sncf-infogare"
+    },
+    {
+      "name": "Microsoft Malware Prediction",
+      "date": "2020",
+      "description": "Défi d'IA organisé par Microsoft : Prédire la probabilité qu'une machine Windows soit infectée par diverses familles de logiciels malveillants en fonction de ses différentes propriétés et de sa configuration.",
+      "link": "https://github.com/massiltag/Microsoft-Malware-Prediction"
+    },
+    {
+      "name": "CSV-Indexer",
+      "date": "2020",
+      "description": "Indexeur de CSV réalisé en Java, implémentation de différents types d'index et étude de la performance.",
+      "link": "https://github.com/massiltag/portfolio"
+    },
+    {
+      "name": "iOS Weather App",
+      "date": "2020",
+      "description": "Projet d'introduction à la programmation avec Swift : Application Météo iOS.",
+      "link": "https://github.com/massiltag/ios-weather-app"
+    },
+    {
+      "name": "Application de gestion d'un magasin",
+      "date": "2019",
+      "description": "Conception d'une application de bureau en Java pour la gestion d'un magasin. Intégration de plusieurs fonctionnalités (Achat, Vente, Inventaire, Statistiques...). Interface graphique avec Java Swing.",
+      "link": "https://github.com/massiltag/Magasin"
+    }
+  ]
+}
