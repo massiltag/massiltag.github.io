@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
+    <list default="true" id="4e0aaec0-3c71-43db-b297-6c46a869a4a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,22 +10,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Massil Taguemout &lt;massiltag@icloud.com&gt;" />
-      </list>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="24pZrJc77thAwPHcnEixcE2Us8P" />
+  <component name="ProjectId" id="24xQvkP76anasONrkXrtxCSEwzV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,211 +27,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/img" />
-      <recent name="$PROJECT_DIR$/src/assets/fonts/sf-mono" />
-      <recent name="$PROJECT_DIR$/src/assets/fonts/calibre" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/files" />
-      <recent name="$PROJECT_DIR$/src/assets/img" />
-      <recent name="$PROJECT_DIR$/src/assets/json" />
-      <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/app/components/layout" />
-    </key>
-  </component>
-  <component name="RunManager" selected="npm.build">
-    <configuration name="Tests (portfolio)" type="JavaScriptTestRunnerKarma">
-      <config-file value="$PROJECT_DIR$/karma.conf.js" />
-      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
-      <working-directory value="$PROJECT_DIR$" />
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
-      <method v="2" />
-    </configuration>
-    <configuration name="Angular CLI Server" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.build" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="" />
-      <created>1644329690398</created>
+      <changelist id="4e0aaec0-3c71-43db-b297-6c46a869a4a7" name="Default Changelist" comment="" />
+      <created>1644569993060</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644329690398</updated>
-      <workItem from="1644329696815" duration="6854000" />
-      <workItem from="1644362501908" duration="7098000" />
-      <workItem from="1644370494397" duration="291000" />
-      <workItem from="1644370812225" duration="31000" />
-      <workItem from="1644370844424" duration="145000" />
-      <workItem from="1644410653631" duration="1044000" />
-      <workItem from="1644413071965" duration="13215000" />
-      <workItem from="1644486089425" duration="25273000" />
-      <workItem from="1644568335066" duration="439000" />
+      <updated>1644569993060</updated>
+      <workItem from="1644569996321" duration="805000" />
     </task>
-    <task id="LOCAL-00001" summary="add project files">
-      <created>1644370655966</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1644370655967</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add experience &amp; degrees components">
-      <created>1644428982315</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1644428982315</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add degrees components &amp; more">
-      <created>1644510298237</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1644510298237</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add projects component">
-      <created>1644540562871</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1644540562871</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add projects component 2">
-      <created>1644540907687</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1644540907687</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add contact and footer components">
-      <created>1644542761054</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1644542761054</updated>
-    </task>
-    <task id="LOCAL-00007" summary="update .gitignore">
-      <created>1644542833955</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1644542833956</updated>
-    </task>
-    <task id="LOCAL-00008" summary="fix some bugs">
-      <created>1644544707970</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1644544707970</updated>
-    </task>
-    <task id="LOCAL-00009" summary="simpler code">
-      <created>1644544823240</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1644544823240</updated>
-    </task>
-    <task id="LOCAL-00010" summary="fix console errors">
-      <created>1644545674229</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1644545674229</updated>
-    </task>
-    <task id="LOCAL-00011" summary="fix budget error">
-      <created>1644545769623</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1644545769623</updated>
-    </task>
-    <task id="LOCAL-00012" summary="fix budget error">
-      <created>1644545830041</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1644545830041</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add builded files">
-      <created>1644546955530</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1644546955531</updated>
-    </task>
-    <task id="LOCAL-00014" summary="delete builded files">
-      <created>1644547206881</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1644547206881</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add project files" />
-    <MESSAGE value="add experience &amp; degrees components" />
-    <MESSAGE value="add degrees components &amp; more" />
-    <MESSAGE value="add projects component" />
-    <MESSAGE value="add projects component 2" />
-    <MESSAGE value="add contact and footer components" />
-    <MESSAGE value="update .gitignore" />
-    <MESSAGE value="fix some bugs" />
-    <MESSAGE value="simpler code" />
-    <MESSAGE value="fix console errors" />
-    <MESSAGE value="fix budget error" />
-    <MESSAGE value="add builded files" />
-    <MESSAGE value="delete builded files" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete builded files" />
   </component>
 </project>
