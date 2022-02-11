@@ -5,42 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/321329095f88160cbebe9d9de6e18a57.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/3c3454f90f2408dfe3c63437654b7671.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/405f3116a85a82fd4e34cf105af84aef.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/4a6ef71ef54d6535951c44dc112066fe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/70d3c2b850ae505c4e5b6ca03dd33a52.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/wink.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/14.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/15.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/19.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/19.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/20.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/20.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/21.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/21.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/22.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/22.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/23.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/23.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/24.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/24.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/degrees/degrees.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/degrees/degrees.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/SU-slate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/SU.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/SU.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/UP1-slate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/UP1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/UP1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/profile.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +105,7 @@
       <workItem from="1644370844424" duration="145000" />
       <workItem from="1644410653631" duration="1044000" />
       <workItem from="1644413071965" duration="13215000" />
-      <workItem from="1644486089425" duration="21344000" />
+      <workItem from="1644486089425" duration="23017000" />
     </task>
     <task id="LOCAL-00001" summary="add project files">
       <created>1644370655966</created>
@@ -173,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644542761054</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update .gitignore">
+      <created>1644542833955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644542833956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +181,7 @@
     <MESSAGE value="add projects component" />
     <MESSAGE value="add projects component 2" />
     <MESSAGE value="add contact and footer components" />
-    <option name="LAST_COMMIT_MESSAGE" value="add contact and footer components" />
+    <MESSAGE value="update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore" />
   </component>
 </project>

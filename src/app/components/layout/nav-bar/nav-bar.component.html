@@ -1,14 +1,6 @@
 <div class="bar" id="navbar">
   <img class="avatar" src="../../../../assets/img/avatar.png" alt="avatar"/>
 
-  <!--div class="nav">
-    <a href="#a"><div class="nav-item"><span class="accent">À propos</span></div></a>
-    <a href="#b"><div class="nav-item"><span class="accent">Formation</span></div></a>
-    <a href="#c"><div class="nav-item"><span class="accent">Expérience</span></div></a>
-    <a href="#d"><div class="nav-item"><span class="accent">Projets</span></div></a>
-    <a href="#e"><div class="nav-item"><span class="accent">Contact</span></div></a>
-  </div-->
-
   <nav ngxNavbarDynamicExpand class="navbar-light bg-light">
     <button class="navbar-toggler" type="button" (click)="collapse.toggle()">
       <i class="bi bi-list"></i>
@@ -16,22 +8,32 @@
     <ngx-navbar-collapse class="nav-items" #collapse="ngxNavbarCollapse">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link code accent" href="#">À propos</a>
+          <a class="nav-link code accent" href="#" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
+            À propos
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link code accent" href="#experience">Expérience</a>
+          <a class="nav-link code accent" href="#experience" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
+            Expérience
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link code accent" href="#degrees">Diplômes</a>
+          <a class="nav-link code accent" href="#degrees" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
+            Diplômes
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link code accent" href="#projects">Projets</a>
+          <a class="nav-link code accent" href="#projects" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
+            Projets
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link code accent" href="#contact">Contact</a>
+          <a class="nav-link code accent" href="#contact" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
+            Contact
+          </a>
         </li>
         <li class="nav-item" id="dl" data-toggle="tooltip" data-placement="bottom" title="Télécharger mon CV">
-          <a class="nav-link code accent" href="assets/CV-Massil-Taguemout.pdf">
+          <a class="nav-link code accent" href="assets/files/CV-Massil-Taguemout.pdf" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
             <i class="bi bi-cloud-arrow-down-fill"></i>
           </a>
         </li>

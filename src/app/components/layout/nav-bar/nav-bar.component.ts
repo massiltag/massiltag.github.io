@@ -23,4 +23,6 @@ export class NavBarComponent implements OnInit {
     }
   }
 
+  log(e) {console.log(e)}
+
 }
