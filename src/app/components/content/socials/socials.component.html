@@ -1,0 +1,14 @@
+<div class="socials">
+
+    <ul>
+        <li class="arrow-up accent"><i class="bi bi-chevron-compact-up"></i></li>
+        <li *ngFor="let s of socials">
+            <a href="{{ s.link }}" target="_blank">
+                <i class="bi {{ s.icon }}"></i>
+            </a>
+        </li>
+        <li class="bar"><div class="vertical-bar"></div></li>
+    </ul>
+
+
+</div>

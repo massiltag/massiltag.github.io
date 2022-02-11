@@ -16,6 +16,7 @@ import { ProjectsComponent } from './components/content/projects/projects.compon
 import {FlexLayoutModule} from "@angular/flex-layout";
 import { ContactComponent } from './components/content/contact/contact.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
+import { SocialsComponent } from './components/content/socials/socials.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FooterComponent } from './components/layout/footer/footer.component';
     DegreesComponent,
     ProjectsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    SocialsComponent
   ],
   imports: [
     BrowserModule,

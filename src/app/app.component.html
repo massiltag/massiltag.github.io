@@ -6,4 +6,5 @@
     <app-projects class="elt" id="projects" [projects]="projects"></app-projects>
     <app-contact class="elt" id="contact" [profile]="profile"></app-contact>
 </div>
+<app-socials *ngIf="profile" [socials]="profile.socials"></app-socials>
 <app-footer></app-footer>

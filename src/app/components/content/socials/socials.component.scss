@@ -1,0 +1,54 @@
+@import "src/styles.scss";
+
+.socials {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 2%;
+  transition: all 500ms ease-in-out;
+
+  ul {
+    padding: 0;
+    margin: 0 auto;
+
+    .arrow-up {
+      display: none;
+    }
+
+    li {
+      font-size: 21px;
+      margin-bottom: 10px;
+      list-style-type: none;
+
+      a {
+        text-decoration: none;
+        color: var(--lightest-slate)!important;
+      }
+
+      &.bar { margin: auto auto 0; }
+
+      .vertical-bar {
+        border: 1px solid var(--lightest-slate);
+        height: 135px;
+        width: 1px;
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+
+}
+
+
+@media (max-width: $breakpoint) {
+  .socials {
+    bottom: -308px;
+    &:hover {
+      bottom: 0;
+    }
+    .arrow-up {
+      display: block!important;
+    }
+  }
+}

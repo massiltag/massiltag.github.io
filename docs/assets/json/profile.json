@@ -50,18 +50,23 @@
   "socials": [
     {
       "name": "massiltag@icloud.com",
-      "link": "mailto:rnldhv91@gmail.com",
-      "icon": "fa fa-envelope"
+      "link": "mailto:massiltag@icloud.com",
+      "icon": "bi-envelope-fill"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://www.linkedin.com/in/mtag/",
+      "icon": "bi-twitter"
     },
     {
       "name": "Github",
-      "link": "https://github.com/",
-      "icon": "fab fa-github"
+      "link": "https://github.com/massiltag",
+      "icon": "bi-github"
     },
     {
       "name": "LinkedIn",
       "link": "https://www.linkedin.com/in/mtag/",
-      "icon": "fab fa-linkedin"
+      "icon": "bi-linkedin"
     }
   ]
 }
