@@ -5,48 +5,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoBoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoHeavy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoHeavyItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoLightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoMedium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoMediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoRegular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoRegularItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoSemibold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/SFMonoSemiboldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/sf-mono/font.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/13.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/14.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/content/degrees/degrees.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/degrees/degrees.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/layout/title/title.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/title/title.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/model/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/projects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/0 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/1 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/11 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/12 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/13 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/14 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/2 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/3 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/4 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/5 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/6 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/7 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/8 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/9 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/2af923b950f514e5e0357e6b306b07ed2a56990c/index.pack 2.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/0.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/1.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/10.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/12 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/19.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/20.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/21.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/22.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/23.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/24.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/3.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/4.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/5.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/6.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/7 2.pack_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/7.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/8.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/9.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack 2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack 3.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack 5.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack 6.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack 7.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack 8.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack 9.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/0.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/1.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/10.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/11.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/12.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/13.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/14.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/15.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/16.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/17.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/18.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/19.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/20.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/21.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/22.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/23.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/24.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/25.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/26.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/27.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/28.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/29.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/3.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/30.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/31.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/4.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/5.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/6.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/7.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/8.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/9.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/index.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/632956cc65ddce96e0c239a8a0bd6d0a2c7fd4ba/index.pack.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/1553ee763f8ede2c9f831471efb96fa3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/3aeeb4c78602d97befb6dcf65a074ca7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/419f83e88ca749eff6c1a5c99a5429b1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/612ae2e055f4d7186b430b23ba828d00.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/69e68645df2b6d996843987687966878.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/a34a5ec0d75a191c3f1ace812f42bb6d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/bb5267433a8a848eaba9a1c2e886ade1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/d27b13cb98424adf34f6496acd7670d3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/content/projects/projects.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/content/projects/projects.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/content/projects/projects.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/content/projects/projects.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/json/projects.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +182,7 @@
       <workItem from="1644370844424" duration="145000" />
       <workItem from="1644410653631" duration="1044000" />
       <workItem from="1644413071965" duration="13215000" />
-      <workItem from="1644486089425" duration="19376000" />
+      <workItem from="1644486089425" duration="19537000" />
     </task>
     <task id="LOCAL-00001" summary="add project files">
       <created>1644370655966</created>
@@ -157,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644510298237</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add projects component">
+      <created>1644540562871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644540562871</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +234,7 @@
     <MESSAGE value="add project files" />
     <MESSAGE value="add experience &amp; degrees components" />
     <MESSAGE value="add degrees components &amp; more" />
-    <option name="LAST_COMMIT_MESSAGE" value="add degrees components &amp; more" />
+    <MESSAGE value="add projects component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add projects component" />
   </component>
 </project>

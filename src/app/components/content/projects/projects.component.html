@@ -1,0 +1,21 @@
+<div class="projects">
+
+    <app-title id="title03" [number]="'03'" [title]="'Projets'"></app-title>
+
+    <div class="container">
+        <div class="cards" fxLayout="row wrap">
+            <div class="card" *ngFor="let p of projects.projects">
+                <div class="card-body calibre">
+                    <h5 class="card-title">{{ p.name }}</h5>
+                    <h6 class="card-subtitle mb-2 accent code">{{ p.date }}</h6>
+                    <p class="card-text">{{ p.description }}</p>
+                    <a *ngIf="p.link !== ''" class="card-link" href="{{ p.link }}" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

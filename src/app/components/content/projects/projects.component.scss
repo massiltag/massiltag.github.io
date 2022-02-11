@@ -1,0 +1,73 @@
+@import "src/styles.scss";
+
+.projects {
+  padding-top: 70px;
+
+  .container {
+    margin: 20px auto;
+
+    .card {
+      width: 32%;
+      margin: 5px;
+      background: unset;
+      border: 1px solid var(--lightest-navy);
+
+      &-title { margin-bottom: 2px; }
+      &-subtitle { font-size: 13px; }
+      &-text { text-align: justify; }
+
+      &-link {
+        text-decoration: none;
+        color: var(--lightest-slate);
+        position: absolute;
+        font-size: 20px;
+        top: 13px;
+        right: 15px;
+      }
+    }
+  }
+
+}
+
+@media (min-width: $breakpoint) {
+  .projects {
+    .container {
+      width: 80%;
+
+      .cards {
+        justify-content: space-between;
+
+        &::after {
+          content: "";
+          flex: auto;
+        }
+      }
+
+    }
+
+  }
+}
+
+@media (max-width: 1007px) {
+  .projects {
+
+    .cards {
+      justify-content: space-between;
+      .card { width: 48% }
+    }
+
+
+  }
+}
+
+@media (max-width: $breakpoint) {
+  .projects {
+
+    .cards {
+      justify-content: space-between;
+      .card { width: 100% }
+    }
+
+
+  }
+}
