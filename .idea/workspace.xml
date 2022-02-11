@@ -5,6 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/index.pack.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/321329095f88160cbebe9d9de6e18a57.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/3c3454f90f2408dfe3c63437654b7671.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/405f3116a85a82fd4e34cf105af84aef.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/4a6ef71ef54d6535951c44dc112066fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/babel-webpack/70d3c2b850ae505c4e5b6ca03dd33a52.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/assets/img/wink.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/13.2.2/angular-webpack/3cedc17b327b0103c411cda047dcf6538a85843a/12.pack" afterDir="false" />
@@ -115,7 +129,7 @@
       <workItem from="1644370844424" duration="145000" />
       <workItem from="1644410653631" duration="1044000" />
       <workItem from="1644413071965" duration="13215000" />
-      <workItem from="1644486089425" duration="21217000" />
+      <workItem from="1644486089425" duration="21344000" />
     </task>
     <task id="LOCAL-00001" summary="add project files">
       <created>1644370655966</created>
@@ -152,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644540907687</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add contact and footer components">
+      <created>1644542761054</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644542761054</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +197,7 @@
     <MESSAGE value="add degrees components &amp; more" />
     <MESSAGE value="add projects component" />
     <MESSAGE value="add projects component 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add projects component 2" />
+    <MESSAGE value="add contact and footer components" />
+    <option name="LAST_COMMIT_MESSAGE" value="add contact and footer components" />
   </component>
 </project>
