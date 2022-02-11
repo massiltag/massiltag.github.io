@@ -146,13 +146,13 @@
 
 @media (min-width: $breakpoint) {
   .experience {
-    height: 35em;
+    // height: 35em;
     .container { width: 80%; }
   }
 }
 
 @media (max-width: $breakpoint) {
   .experience {
-    height: 45em;
+    // height: 45em;
   }
 }

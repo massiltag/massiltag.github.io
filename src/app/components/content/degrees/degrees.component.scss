@@ -37,7 +37,7 @@
 
 @media (min-width: $breakpoint) {
   .degrees {
-    height: 35em;
+    // height: 35em;
     .container {
       width: 80%;
       .card {
@@ -56,7 +56,7 @@
 
 @media (max-width: $breakpoint) {
   .degrees {
-    height: 45em;
+    //height: 45em;
 
     .card {
       &-header {

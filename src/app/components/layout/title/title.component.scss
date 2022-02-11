@@ -5,8 +5,12 @@
   display: block;
   margin: auto 10vw;
 
+  .number {
+    font-size: 18px;
+  }
+
   &-text {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .line {

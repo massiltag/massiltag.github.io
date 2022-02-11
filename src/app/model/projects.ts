@@ -3,8 +3,8 @@ export interface Projects {
 }
 
 export interface Project {
-  preview: string;
-  created_at: string;
   name: string;
+  date: string;
   description: string;
+  link: string;
 }

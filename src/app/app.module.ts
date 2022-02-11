@@ -12,6 +12,8 @@ import { ExperienceComponent } from './components/content/experience/experience.
 import { TitleComponent } from './components/layout/title/title.component';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { DegreesComponent } from './components/content/degrees/degrees.component';
+import { ProjectsComponent } from './components/content/projects/projects.component';
+import {FlexLayoutModule} from "@angular/flex-layout";
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { DegreesComponent } from './components/content/degrees/degrees.component
     HeadingComponent,
     ExperienceComponent,
     TitleComponent,
-    DegreesComponent
+    DegreesComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +32,7 @@ import { DegreesComponent } from './components/content/degrees/degrees.component
     BrowserAnimationsModule,
     NgxNavbarModule,
     AccordionModule.forRoot(),
+    FlexLayoutModule
   ],
   providers: [ HttpClient ],
   bootstrap: [AppComponent]
