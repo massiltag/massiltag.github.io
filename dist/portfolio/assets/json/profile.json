@@ -1,0 +1,67 @@
+{
+  "email": "massiltag@icloud.com",
+  "location": "Paris, France",
+  "name": "Massil Taguemout",
+  "title": "Développeur Fullstack",
+  "about": "Bientôt diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne et le CFA AFIA et actuellement Ingénieur d'Études et Développement chez LCL, je suis à la recherche d'un premier emploi en CDI à partir d'octobre 2022.",
+  "phone": "",
+  "avatar": "",
+  "degrees": [
+    {
+      "title": "Master Information Knowledge, Systems Engineering and Management",
+      "year": "2022",
+      "data": "Master en MIAGE (Méthodes Informatiques Appliquées à la Gestion d'Entreprise), M2 dispensé en anglais. Contenu :",
+      "content": [
+        "Frameworks et composants métier",
+        "Architecture logicielle et WEB",
+        "Bases de données NoSQL",
+        "Cloud et Pervasive Computing",
+        "Sécurité des SI",
+        "Génie logiciel avancé",
+        "Ingénierie de processus métier",
+        "Ingénierie des exigences",
+        "Business Intelligence",
+        "Architecture d'entreprise (ESOA)",
+        "Process Mining",
+        "Gestion de projet avancée",
+        "Veille technologique"
+      ],
+      "img": "UP1.png"
+    },
+    {
+      "title": "Licence Générale en Informatique",
+      "year": "2020",
+      "data": "Licence 3 parcours DANT (Développement d'Applications - Nouvelles Technologies) effectuée en alternance chez GRTgaz.",
+      "content": [
+        "Algorithmique",
+        "Programmation objet (Java)",
+        "Programmation fonctionnelle",
+        "Bases de données relationnelles",
+        "Génie logiciel",
+        "Développement WEB",
+        "Systèmes d'exploitation et programmation système",
+        "Réseaux",
+        "Data science",
+        "Gestion de projet"
+      ],
+      "img": "SU.png"
+    }
+  ],
+  "socials": [
+    {
+      "name": "massiltag@icloud.com",
+      "link": "mailto:rnldhv91@gmail.com",
+      "icon": "fa fa-envelope"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/",
+      "icon": "fab fa-github"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/mtag/",
+      "icon": "fab fa-linkedin"
+    }
+  ]
+}

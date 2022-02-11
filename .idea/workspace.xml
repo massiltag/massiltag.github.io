@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,8 @@
       <workItem from="1644370844424" duration="145000" />
       <workItem from="1644410653631" duration="1044000" />
       <workItem from="1644413071965" duration="13215000" />
-      <workItem from="1644486089425" duration="25038000" />
+      <workItem from="1644486089425" duration="25273000" />
+      <workItem from="1644568335066" duration="439000" />
     </task>
     <task id="LOCAL-00001" summary="add project files">
       <created>1644370655966</created>
@@ -198,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644545830041</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add builded files">
+      <created>1644546955530</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644546955531</updated>
+    </task>
+    <task id="LOCAL-00014" summary="delete builded files">
+      <created>1644547206881</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644547206881</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +241,8 @@
     <MESSAGE value="simpler code" />
     <MESSAGE value="fix console errors" />
     <MESSAGE value="fix budget error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix budget error" />
+    <MESSAGE value="add builded files" />
+    <MESSAGE value="delete builded files" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete builded files" />
   </component>
 </project>

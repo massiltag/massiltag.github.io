@@ -1,0 +1,44 @@
+{
+  "history": [
+    {
+      "title": "Ingénieur d'Études et Développement",
+      "employer": "LCL",
+      "date": "Depuis Septembre 2020",
+      "description": "Conception et développement d'applications fullstack Java (Spring) / Angular, refontes d'applications métier en organisation agile. Contrat en alternance.",
+      "stack": [
+        "Java 8/11",
+        "Spring Boot",
+        "JavaScript",
+        "Typescript",
+        "Angular",
+        "MongoDB",
+        "PostGreSQL",
+        "Maven",
+        "Git",
+        "npm",
+        "Agile"
+      ]
+    },
+    {
+      "title": "Développeur SI",
+      "employer": "GRTgaz",
+      "date": "Octobre 2019 - Août 2020",
+      "description": "Développement d'applications métier fullstack Java (Spring) / Angular dans un contexte agile.",
+      "stack": [
+        "Java 11",
+        "Spring Boot",
+        "JavaScript",
+        "Typescript",
+        "Angular",
+        "Maven",
+        "Git",
+        "npm",
+        "Agile",
+        "Jira",
+        "Confluence",
+        "Amazon Web Services",
+        "RESTful API Design"
+      ]
+    }
+  ]
+}
