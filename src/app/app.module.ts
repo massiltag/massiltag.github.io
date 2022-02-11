@@ -14,6 +14,8 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { DegreesComponent } from './components/content/degrees/degrees.component';
 import { ProjectsComponent } from './components/content/projects/projects.component';
 import {FlexLayoutModule} from "@angular/flex-layout";
+import { ContactComponent } from './components/content/contact/contact.component';
+import { FooterComponent } from './components/layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import {FlexLayoutModule} from "@angular/flex-layout";
     ExperienceComponent,
     TitleComponent,
     DegreesComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
