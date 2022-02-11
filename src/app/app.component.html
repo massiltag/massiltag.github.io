@@ -1,6 +1,6 @@
 <app-nav-bar style="position: page"></app-nav-bar>
-<div class="portfolio">
-    <app-heading class="elt" [profile]="profile"></app-heading>
+<div class="portfolio" *ngIf="profile && work && projects">
+    <app-heading class="elt" id="heading" [profile]="profile"></app-heading>
     <app-experience class="elt" id="experience" [work]="work"></app-experience>
     <app-degrees class="elt" id="degrees" [degrees]="profile.degrees"></app-degrees>
     <app-projects class="elt" id="projects" [projects]="projects"></app-projects>

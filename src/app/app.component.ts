@@ -26,16 +26,9 @@ export class AppComponent implements OnInit {
     this.smoothScroll();
     try {
       this.profile = await this.dataService.getProfile();
-      console.log('PROFILE', this.profile);
-
       this.work = await this.dataService.getWorkExperience();
-      console.log('WORK', this.work);
-
       this.skills = await this.dataService.getSkills();
-      console.log('SKILLS', this.skills);
-
       this.projects = await this.dataService.getProjects();
-      console.log('PROJECTS', this.dataService);
     } catch (e) {
       console.log(e);
     }
