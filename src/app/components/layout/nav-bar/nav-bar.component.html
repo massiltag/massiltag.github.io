@@ -6,34 +6,24 @@
       <i class="bi bi-list"></i>
     </button>
     <ngx-navbar-collapse class="nav-items" #collapse="ngxNavbarCollapse">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
         <li class="nav-item">
-          <a class="nav-link code accent" href="#" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
-            À propos
-          </a>
+          <a class="nav-link code accent" href="#">À propos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link code accent" href="#experience" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
-            Expérience
-          </a>
+          <a class="nav-link code accent" href="#experience">Expérience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link code accent" href="#degrees" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
-            Diplômes
-          </a>
+          <a class="nav-link code accent" href="#degrees">Diplômes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link code accent" href="#projects" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
-            Projets
-          </a>
+          <a class="nav-link code accent" href="#projects">Projets</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link code accent" href="#contact" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
-            Contact
-          </a>
+          <a class="nav-link code accent" href="#contact">Contact</a>
         </li>
         <li class="nav-item" id="dl" data-toggle="tooltip" data-placement="bottom" title="Télécharger mon CV">
-          <a class="nav-link code accent" href="assets/files/CV-Massil-Taguemout.pdf" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
+          <a class="nav-link code accent" href="assets/files/CV-Massil-Taguemout.pdf">
             <i class="bi bi-cloud-arrow-down-fill"></i>
           </a>
         </li>
