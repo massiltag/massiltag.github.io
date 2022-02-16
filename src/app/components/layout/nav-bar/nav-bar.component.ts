@@ -11,7 +11,7 @@ export class NavBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    var prevScrollpos = window.pageYOffset;
+    /*var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
       var currentScrollPos = window.pageYOffset;
       if (prevScrollpos > currentScrollPos) {
@@ -20,7 +20,7 @@ export class NavBarComponent implements OnInit {
         document.getElementById("navbar").style.top = "-70px";
       }
       prevScrollpos = currentScrollPos;
-    }
+    }*/
   }
 
   log(e) {console.log(e)}

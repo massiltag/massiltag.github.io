@@ -17,6 +17,7 @@ import {FlexLayoutModule} from "@angular/flex-layout";
 import { ContactComponent } from './components/content/contact/contact.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { SocialsComponent } from './components/content/socials/socials.component';
+import {NgxHideOnScrollModule} from "ngx-hide-on-scroll";
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { SocialsComponent } from './components/content/socials/socials.component
     BrowserAnimationsModule,
     NgxNavbarModule,
     AccordionModule.forRoot(),
-    FlexLayoutModule
+    FlexLayoutModule,
+    NgxHideOnScrollModule
   ],
   providers: [ HttpClient ],
   bootstrap: [AppComponent]

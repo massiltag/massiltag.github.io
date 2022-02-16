@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
+    <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="add socials component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/styles.c1809b917d0f9897.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/styles.c1809b917d0f9897.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/profile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Massil Taguemout &lt;massiltag@icloud.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="develop" />
@@ -32,6 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -55,13 +61,36 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4e0aaec0-3c71-43db-b297-6c46a869a4a7" name="Default Changelist" comment="" />
+      <changelist id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="" />
       <created>1644569993060</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644569993060</updated>
       <workItem from="1644569996321" duration="805000" />
+      <workItem from="1644968409754" duration="3547000" />
     </task>
+    <task id="LOCAL-00001" summary="add socials component">
+      <created>1644595145376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644595145376</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changed my information">
+      <created>1644972608909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972608909</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix navbar bug">
+      <created>1644972635422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972635422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +98,11 @@
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add socials component" />
+    <MESSAGE value="changed my information" />
+    <MESSAGE value="fix navbar bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix navbar bug" />
   </component>
 </project>
