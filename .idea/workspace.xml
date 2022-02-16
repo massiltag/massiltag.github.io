@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644569993060</updated>
       <workItem from="1644569996321" duration="805000" />
-      <workItem from="1644968409754" duration="4928000" />
+      <workItem from="1644968409754" duration="5912000" />
     </task>
     <task id="LOCAL-00001" summary="add socials component">
       <created>1644595145376</created>
@@ -138,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644973852089</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add CNAME">
+      <created>1644974320236</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644974320236</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +174,8 @@
     <MESSAGE value="fix height bug" />
     <MESSAGE value="change favicon" />
     <MESSAGE value="ng build" />
-    <option name="LAST_COMMIT_MESSAGE" value="ng build" />
+    <MESSAGE value="add CNAME" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CNAME" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
   </component>
 </project>

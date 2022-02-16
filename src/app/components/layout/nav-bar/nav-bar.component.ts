@@ -23,6 +23,8 @@ export class NavBarComponent implements OnInit {
     }*/
   }
 
-  log(e) {console.log(e)}
+  focus(event): void {
+    event.target.focus();
+  };
 
 }

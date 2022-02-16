@@ -9,7 +9,7 @@
       <i class="bi bi-list"></i>
     </button>
     <ngx-navbar-collapse class="nav-items" #collapse="ngxNavbarCollapse">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" (click)="!collapse.isCollapsed ? collapse.toggle() : undefined">
         <li class="nav-item">
           <a class="nav-link code accent" href="#heading">À propos</a>
         </li>
