@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="" />
+    <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644569993060</updated>
       <workItem from="1644569996321" duration="805000" />
-      <workItem from="1644968409754" duration="4313000" />
+      <workItem from="1644968409754" duration="4928000" />
     </task>
     <task id="LOCAL-00001" summary="add socials component">
       <created>1644595145376</created>
@@ -122,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644973076945</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change favicon">
+      <created>1644973828923</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644973828923</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ng build">
+      <created>1644973852089</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644973852089</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +163,9 @@
     <MESSAGE value="fix navbar bug" />
     <MESSAGE value="change picture in contact" />
     <MESSAGE value="fix height bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix height bug" />
+    <MESSAGE value="change favicon" />
+    <MESSAGE value="ng build" />
+    <option name="LAST_COMMIT_MESSAGE" value="ng build" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
   </component>
 </project>
