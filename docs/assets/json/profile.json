@@ -3,9 +3,9 @@
   "location": "Paris, France",
   "name": "Massil Taguemout",
   "title": "Développeur Fullstack",
-  "about": "Bientôt diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne et le CFA AFIA et actuellement Ingénieur d'Études et Développement chez LCL, je suis à la recherche d'un premier emploi en CDI à partir d'octobre 2022.",
+  "about": "Bientôt diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne, actuellement Ingénieur d'Études et Développement chez LCL, je suis à la recherche d'un premier emploi en CDI à partir d'octobre 2022.",
   "phone": "",
-  "avatar": "",
+  "avatar": "avatar.png",
   "degrees": [
     {
       "title": "Master Information Knowledge, Systems Engineering and Management",
@@ -55,7 +55,7 @@
     },
     {
       "name": "Twitter",
-      "link": "https://www.linkedin.com/in/mtag/",
+      "link": "https://twitter.com/massil_tag",
       "icon": "bi-twitter"
     },
     {

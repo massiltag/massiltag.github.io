@@ -4,16 +4,30 @@
       "title": "Ingénieur d'Études et Développement",
       "employer": "LCL",
       "date": "Depuis Septembre 2020",
-      "description": "Conception et développement d'applications fullstack Java (Spring) / Angular, refontes d'applications métier en organisation agile. Contrat en alternance.",
+      "description": "Membre de l'équipe FWK du Portail Ingénierie WEB, chargée de la maintenance et de l'évolution du Framework d'entreprise.",
+      "activities": [
+        "Conception et développement d'applications fullstack Spring Boot/Angular",
+        "Correction et évolution des applications métier",
+        "Refontes intégrales de JSP/Servlet à Spring Boot/Angular",
+        "Rédaction de documentation technique",
+        "Écriture de tests unitaires",
+        "Activité de support de niveau 2 aux développeurs Java/Web LCL",
+        "Veille technologique"
+      ],
       "stack": [
         "Java 8/11",
         "Spring Boot",
-        "JavaScript",
+        "JUnit",
+        "Javascript",
         "Typescript",
         "Angular",
+        "Bootstrap",
+        "jQuery",
         "MongoDB",
         "PostGreSQL",
         "Maven",
+        "Sonar",
+        "Jenkins",
         "Git",
         "npm",
         "Agile"
@@ -23,7 +37,13 @@
       "title": "Développeur SI",
       "employer": "GRTgaz",
       "date": "Octobre 2019 - Août 2020",
-      "description": "Développement d'applications métier fullstack Java (Spring) / Angular dans un contexte agile.",
+      "description": "Programme RIO (Refonte du Système d'Information de l'Offre GRTgaz) en organisation agile.",
+      "activities": [
+        "Développement d'une application de suivi des incidents en production",
+        "Refonte d'applications métier en Spring Boot/Angular",
+        "Mise en place d'une stratégie d'API Management avec la solution Apigee",
+        "Veille technologique"
+      ],
       "stack": [
         "Java 11",
         "Spring Boot",
@@ -34,10 +54,10 @@
         "Git",
         "npm",
         "Agile",
-        "Jira",
-        "Confluence",
         "Amazon Web Services",
-        "RESTful API Design"
+        "RESTful API Design",
+        "Jira",
+        "Confluence"
       ]
     }
   ]
