@@ -7,5 +7,6 @@ export interface Work {
   employer: string;
   date: string;
   description: string;
+  activities: string[];
   stack: string[];
 }
