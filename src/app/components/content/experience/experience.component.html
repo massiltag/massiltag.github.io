@@ -27,6 +27,11 @@
                 <h3 class="calibre">{{ w.title }}</h3>
                 <p class="date text-muted">{{ w.date }}</p>
                 <p>{{ w.description }}</p>
+                <div class="activities">
+                    <ul>
+                        <li *ngFor="let a of w.activities">{{ a }}</li>
+                    </ul>
+                </div>
                 <div class="skills">
                     <span class="skill code" *ngFor="let s of w.stack">{{ s }}</span>
                 </div>
