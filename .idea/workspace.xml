@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="add socials component">
+    <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644569993060</updated>
       <workItem from="1644569996321" duration="805000" />
-      <workItem from="1644968409754" duration="3547000" />
+      <workItem from="1644968409754" duration="3870000" />
     </task>
     <task id="LOCAL-00001" summary="add socials component">
       <created>1644595145376</created>
@@ -90,19 +86,52 @@
       <option name="project" value="LOCAL" />
       <updated>1644972635422</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add activities list">
+      <created>1644972721149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972721149</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix navbar bug">
+      <created>1644972768704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972768704</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change picture in contact">
+      <created>1644972791769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972791769</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add socials component" />
     <MESSAGE value="changed my information" />
+    <MESSAGE value="add activities list" />
     <MESSAGE value="fix navbar bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix navbar bug" />
+    <MESSAGE value="change picture in contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="change picture in contact" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
   </component>
 </project>
