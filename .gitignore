@@ -104,3 +104,6 @@ typings/
 
 # Angular
 .angular
+
+# IDE
+.idea
