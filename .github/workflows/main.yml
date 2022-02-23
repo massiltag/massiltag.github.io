@@ -9,7 +9,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-
       - name: Cache node modules
         uses: actions/cache@v1
         with:
@@ -29,3 +28,4 @@ jobs:
         uses: massiltag/massiltag.github.io@v1
         with:
           artifacts: "dist/angular-githubaction/*"
+          token: ${{ secrets.TOKEN }}
