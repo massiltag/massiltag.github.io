@@ -1,3 +1,4 @@
+- on: push
 - name: Build Angular
   # You may pin to the exact commit or the version.
   uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2
