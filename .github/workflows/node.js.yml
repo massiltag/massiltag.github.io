@@ -38,10 +38,10 @@ jobs:
       - name: Download build
         uses: actions/download-artifact@v1
         with:
-          name: docs
+          name: deploy_dist
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           BRANCH: gh-pages
           FOLDER: docs/
