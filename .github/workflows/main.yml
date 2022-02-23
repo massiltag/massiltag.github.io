@@ -1,31 +1,20 @@
-on: push
-name: Build Angular
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.15.5]
-
-    steps:
-      - uses: actions/checkout@v1
-      - name: Cache node modules
-        uses: actions/cache@v1
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-      - name: Node ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: npm install and npm run build
-        run: |
-          npm i
-          npm run build
-      - name: Push Build to Releases
-        uses: massiltag/massiltag.github.io@v1
-        with:
-          artifacts: "dist/angular-githubaction/*"
-          token: ${{ secrets.TOKEN }}
+- name: Build Angular
+  # You may pin to the exact commit or the version.
+  uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2
+  with:
+    # Github access token token used to deploy on gh_pages. You can find it on Github.
+    github_access_token:
+    # The directory of the angular project, in which all the commands will run
+    angular_project_dir: # optional, default is ./
+    # Build configuration for the angular app
+    build_configuration: # optional, default is production
+    # base href for the app
+    base_href: # optional, default is /
+    # branch on which the angular build will be deployed
+    deploy_branch: # optional, default is gh-pages
+    # The folder in which `ng build` provides its output. This is the folder which will be deployed to the `deploy_branch`.
+    angular_dist_build_folder: docs/ # optional, default is dist
+    # If the action should run 'ng lint'
+    run_lint: # optional
+    # Will not fail the step if anything fails
+    skip_failure: # optional
