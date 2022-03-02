@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/json/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/json/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.145ad1ccc0978f41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/nav-bar/nav-bar.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/projects.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +43,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/files" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -75,6 +87,9 @@
       <updated>1644569993060</updated>
       <workItem from="1644569996321" duration="805000" />
       <workItem from="1644968409754" duration="5912000" />
+      <workItem from="1645577938335" duration="258000" />
+      <workItem from="1646166579928" duration="824000" />
+      <workItem from="1646177947038" duration="2207000" />
     </task>
     <task id="LOCAL-00001" summary="add socials component">
       <created>1644595145376</created>
@@ -188,7 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645576534295</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="change CV">
+      <created>1645578025375</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1645578025376</updated>
+    </task>
+    <task id="LOCAL-00018" summary="build">
+      <created>1645578130491</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1645578130491</updated>
+    </task>
+    <task id="LOCAL-00019" summary="build">
+      <created>1645578187542</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1645578187542</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +255,9 @@
     <MESSAGE value="update github actions workflow" />
     <MESSAGE value="update workflow" />
     <MESSAGE value="add deploy to workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="add deploy to workflow" />
+    <MESSAGE value="change CV" />
+    <MESSAGE value="build" />
+    <option name="LAST_COMMIT_MESSAGE" value="build" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
   </component>
 </project>

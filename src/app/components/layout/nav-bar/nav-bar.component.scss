@@ -10,6 +10,19 @@
   z-index: 10;
   transition: all 350ms ease-in-out;
 
+  .shell {
+    height: inherit;
+    line-height: 70px;
+    align-content: center;
+    margin: auto auto auto 10px;
+    display: inline;
+    float: left;
+    font-size: 35px;
+
+    .animated {
+      animation: opacityOn 1500ms infinite forwards;
+    }
+  }
   .avatar {
     height: inherit;
     margin: auto;
@@ -69,5 +82,24 @@
         margin-left: auto;
       }
     }
+  }
+}
+
+
+@keyframes opacityOn {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
