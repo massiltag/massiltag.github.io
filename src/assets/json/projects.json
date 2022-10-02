@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "name": "Travvie",
+      "date": "2022",
+      "description": "Développement d'une application mobile d'organisation de voyages. Environnement : Spring Boot, Angular + Capacitor, MongoDB, Bitbucket Pipelines, Jira/Confluence",
+      "link": ""
+    },
+    {
       "name": "Entrepreneuriat",
       "date": "2022",
       "description": "Projet de création d'entreprise dans des conditions réelles. En tutorat avec l'entreprise PIVOD et l'association MIAGE Entrepreneurs.",
