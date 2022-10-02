@@ -3,7 +3,7 @@
   "location": "Paris, France",
   "name": "Massil Taguemout",
   "title": "Développeur Fullstack",
-  "about": "Bientôt diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne, actuellement Ingénieur d'Études et Développement chez LCL, je suis à la recherche d'un premier emploi en CDI à partir d'octobre 2022.",
+  "about": "Diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne, ainsi que de Sorbonne Université, je suis actuellement consultant Ingénieur en Systèmes d'Information chez CGI pour la MGEN (Mutuelle générale de l'Éducation nationale). ",
   "phone": "",
   "avatar": "avatar.png",
   "degrees": [
@@ -38,10 +38,10 @@
         "Programmation fonctionnelle",
         "Bases de données relationnelles",
         "Génie logiciel",
-        "Développement WEB",
+        "Frameworks de développement WEB",
         "Systèmes d'exploitation et programmation système",
         "Réseaux",
-        "Data science",
+        "Data Science et Machine Learning",
         "Gestion de projet"
       ],
       "img": "SU.png"
@@ -49,13 +49,13 @@
   ],
   "socials": [
     {
-      "name": "massiltag@icloud.com",
-      "link": "mailto:massiltag@icloud.com",
+      "name": "massil@taguemout.com",
+      "link": "mailto:massil@taguemout.com",
       "icon": "bi-envelope-fill"
     },
     {
       "name": "Twitter",
-      "link": "https://twitter.com/massil_tag",
+      "link": "https://twitter.com/themaxdev",
       "icon": "bi-twitter"
     },
     {
