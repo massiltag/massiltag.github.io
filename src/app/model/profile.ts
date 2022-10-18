@@ -3,8 +3,10 @@ export interface Profile {
   location: string;
   name: string;
   title: string;
+  subtitle: string;
   phone: string;
-  avatar: string;
+  avatar: string;   // Avatar
+  profile: string;  // Profile picture
   degrees: Degree[];
   about: string;
   socials: Social[];

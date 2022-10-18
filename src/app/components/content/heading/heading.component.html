@@ -1,10 +1,18 @@
 <div class="heading">
 
   <div class="text">
-    <span class="intro accent code">Bonjour ! Je m'appelle</span>
-    <span class="name calibre">{{ profile.name }}.</span>
-    <span class="title calibre">{{ profile.title }}.</span>
-    <p class="about">{{ profile.about }}</p>
+    <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="start center" [style.width]="'85vw'">
+      <div fxFlex="70%" [style.width]="'100%'">
+        <span class="intro accent code">Bonjour ! Je m'appelle</span>
+        <span class="name calibre">{{ profile.name }}.</span>
+        <span class="title calibre">{{ profile.title }}.</span>
+        <span *ngIf="profile.subtitle" class="subtitle calibre">{{ profile.subtitle }}.</span>
+        <p class="about">{{ profile.about }}</p>
+      </div>
+      <div fxFlex="30%" [style.width]="'100%'">
+        <img class="profile-picture" src="assets/img/{{ profile.profile }}" alt="Profile picture">
+      </div>
+    </div>
     <a class="go-down" href="#experience"><i class="bi bi-chevron-compact-down accent"></i></a>
   </div>
 

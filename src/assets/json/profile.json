@@ -2,10 +2,12 @@
   "email": "massiltag@icloud.com",
   "location": "Paris, France",
   "name": "Massil Taguemout",
-  "title": "Développeur Fullstack",
-  "about": "Diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne, ainsi que de Sorbonne Université, je suis actuellement consultant Ingénieur en Systèmes d'Information chez CGI pour la MGEN (Mutuelle générale de l'Éducation nationale). ",
-  "phone": "",
+  "title": "Ingénieur Consultant IT",
+  "subtitle": "",
+  "about": "Diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne, ainsi que de Sorbonne Université, je suis actuellement Consultant Ingénieur en Technologies de Information chez CGI.",
+  "phone": "+33782850480",
   "avatar": "avatar.png",
+  "profile": "profile-2.jpg",
   "degrees": [
     {
       "title": "Master Information Knowledge, Systems Engineering and Management (BAC +5)",
