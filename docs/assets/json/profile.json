@@ -2,12 +2,12 @@
   "email": "massiltag@icloud.com",
   "location": "Paris, France",
   "name": "Massil Taguemout",
-  "title": "Ingénieur Consultant IT",
+  "title": "Consultant Ingénieur IT",
   "subtitle": "",
-  "about": "Diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne, ainsi que de Sorbonne Université, je suis actuellement Consultant Ingénieur en Technologies de l'Information chez CGI France | Paris Financial Services.",
+  "about": "Diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne, ainsi que de Sorbonne Université, je suis actuellement Consultant Ingénieur en Technologies de Information chez CGI France - Paris Financial Services.",
   "phone": "+33782850480",
   "avatar": "avatar.png",
-  "profile": "profile-2.jpg",
+  "profile": "profile.jpg",
   "degrees": [
     {
       "title": "Master Information Knowledge, Systems Engineering and Management (BAC +5)",
@@ -47,6 +47,22 @@
         "Gestion de projet"
       ],
       "img": "SU.png"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "PSM I, Professional Scrum Master I",
+      "year": "2023",
+      "data": "La certification Professional Scrum Master I (PSM I) atteste d'une solide maîtrise des principes Scrum et de l'aptitude à guider efficacement les équipes agiles vers le succès des projets, favorisant ainsi la collaboration et l'adaptabilité.",
+      "content": [],
+      "img": "scrum-org.png"
+    },
+    {
+      "title": "TOEIC, Test of English for International Communication, Score 960/990",
+      "year": "2021",
+      "data": "Le TOEIC (Test of English for International Communication) est un test standardisé d'évaluation des compétences en anglais dans un contexte professionnel international. Il mesure la compréhension orale et écrite, essentielle pour la communication efficace en milieu professionnel et académique.",
+      "content": [],
+      "img": "ETS.png"
     }
   ],
   "socials": [

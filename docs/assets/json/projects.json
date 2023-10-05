@@ -3,7 +3,7 @@
     {
       "name": "Travvie",
       "date": "2022",
-      "description": "Développement d'une application mobile d'organisation de voyages. Environnement : Spring Boot, Angular + Capacitor, MongoDB, Bitbucket Pipelines, Jira/Confluence",
+      "description": "Développement d'une application mobile complète d'organisation de voyages. Environnement : Spring Boot, Angular + Capacitor, MongoDB, Bitbucket Pipelines, Jira/Confluence",
       "link": ""
     },
     {
@@ -15,7 +15,7 @@
     {
       "name": "Ce Portfolio",
       "date": "2022",
-      "description": "Réalisé avec Angular 13. Disponible sur GitHub pour réutilisation.",
+      "description": "Réalisé avec Angular 13. Entièrement paramétrable et disponible sur GitHub pour réutilisation.",
       "link": "https://github.com/massiltag/portfolio"
     },
     {
