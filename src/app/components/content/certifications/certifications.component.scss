@@ -1,0 +1,77 @@
+@import "src/styles.scss";
+
+.certifications {
+  padding-top: 70px;
+
+  .container {
+    margin: 20px auto;
+  }
+
+  .card {
+    color: var(--lightest-slate);
+    margin: auto auto 15px;
+    width: 100%!important;
+    padding: 25px 0;
+    background-color: unset;
+    border: 1px solid var(--lightest-navy);
+
+    &-text {
+      margin-bottom: 1px;
+    }
+
+    &-title, &-text {
+      font-family: "Calibre", -apple-system, system-ui, sans-serif!important;
+      .year {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--cyan);
+      }
+    }
+
+    ul {
+      margin: 0;
+    }
+
+
+  }
+}
+
+@media (min-width: $breakpoint) {
+  .certifications {
+    // height: 35em;
+    .container {
+      width: 80%;
+      .card {
+        &-header {
+          width: 20%;
+          .logo { width: 100% }
+        }
+        &-block {
+          width: 80%;
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: $breakpoint) {
+  .certifications {
+    //height: 45em;
+
+    .card {
+      padding: 20px 7px;
+      &-header {
+        width: 100%;
+        .logo {
+          width: 100%;
+          margin-bottom: 5px;
+        }
+      }
+      &-block {
+        width: 100%;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,21 @@
+<div class="certifications">
+
+    <app-title id="title02" [number]="'02'" [title]="'Certifications'"></app-title>
+
+    <div class="container">
+        <div class="card flex-row flex-wrap" *ngFor="let c of certifications">
+            <div class="card-header border-0">
+                <img class="logo" src="../../../../assets/img/{{ c.img }}" alt="">
+            </div>
+            <div class="card-block px-2">
+                <h4 class="card-title">{{ c.title }} <span class="year">{{ c.year }}</span></h4>
+                <p class="card-text">{{ c.data }}</p>
+                <ul *ngIf="c.content.length" class="calibre">
+                    <li *ngFor="let c of c.content">{{ c }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</div>
