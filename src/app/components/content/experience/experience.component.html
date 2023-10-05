@@ -26,7 +26,8 @@
             >
                 <h3 class="calibre">{{ w.title }}</h3>
                 <p class="date text-muted">{{ w.date }}</p>
-                <p>{{ w.description }}</p>
+                <p class="description">{{ w.description }}</p>
+                <p class="description">Activités menées :</p>
                 <div class="activities">
                     <ul>
                         <li *ngFor="let a of w.activities">{{ a }}</li>

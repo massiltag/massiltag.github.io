@@ -1,10 +1,48 @@
 {
   "history": [
     {
+      "title": "Consultant IT",
+      "employer": "CGI France",
+      "date": "Depuis Octobre 2022",
+      "description": "En mission chez la MGEN (Mutuelle Générale de l'Education Nationale) en tant qu'Ingénieur Dévéloppement Fullstack.\nActeur majeur de la protection sociale et première mutuelle de la fonction publique, la MGEN propose des offres de santé et de prévoyance adaptées aux besoins de ses adhérents, ainsi que\ndes solutions d’épargne, de retraite, d’assurance immobilier, de voyage et de protection juridique.\nPour répondre aux enjeux de la réforme de la Protection Sociale Complémentaire, entrant dans le cadre de la loi de\ntransformation de la fonction publique de 2019, la MGEN a opté pour l’emploi d’Activ’ Infinite, un progiciel assurance\ndéveloppé par l’éditeur de logiciels CEGEDIM, comme solution coeur pour la gestion de ses contrats collectifs et a confié à\nCGI la responsabilité d’intégrer le produit dans son système d’information.",
+      "activities": [
+        "Développement des connecteurs permettant l’interfaçage entre le SI MGEN et le progiciel Activ’ Infinite (Microservices synchrones REST et asynchrones Kafka)",
+        "Développement d'un système de suivi des événements et gestion des rejets métier avec IHM Angular",
+        "Rédaction de tests unitaires et maintien de la qualité du code (SonarQube)",
+        "Rédaction de spécifications techniques détaillées",
+        "Conseil client sur la performance et l'ergonomie des produits",
+        "Collaboration avec les équipes client et spécification des contrats d’interface entre les back-offices",
+        "Assistance aux tests End-to-End",
+        "Assistance à la recette",
+        "Support aux équipes de développement client"
+      ],
+      "stack": [
+        "Java 11",
+        "Angular",
+        "Spring Boot",
+        "API REST",
+        "Kafka",
+        "JUnit",
+        "Javascript",
+        "Typescript",
+        "Bootstrap",
+        "PostGreSQL",
+        "Maven",
+        "SonarQube",
+        "GitLab Pipelines",
+        "Git",
+        "npm",
+        "Postman",
+        "APIgee",
+        "HP ALM Quality Center",
+        "Jira"
+      ]
+    },
+    {
       "title": "Ingénieur d'Études et Développement",
       "employer": "LCL",
-      "date": "Depuis Septembre 2020",
-      "description": "Membre de l'équipe FWK du Portail Ingénierie WEB, chargée de la maintenance et de l'évolution du Framework d'entreprise.",
+      "date": "Septembre 2020 - Septembre 2022",
+      "description": "Membre du pôle Framework du Portail Ingénierie WEB, chargé de la maintenance et de l'évolution du Framework d'entreprise.",
       "activities": [
         "Conception et développement d'applications fullstack Spring Boot/Angular",
         "Correction et évolution des applications métier",

@@ -8,6 +8,7 @@ export interface Profile {
   avatar: string;   // Avatar
   profile: string;  // Profile picture
   degrees: Degree[];
+  certifications: Degree[];
   about: string;
   socials: Social[];
 }

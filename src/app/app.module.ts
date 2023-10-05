@@ -18,6 +18,7 @@ import { ContactComponent } from './components/content/contact/contact.component
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { SocialsComponent } from './components/content/socials/socials.component';
 import {NgxHideOnScrollModule} from "ngx-hide-on-scroll";
+import { CertificationsComponent } from './components/content/certifications/certifications.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import {NgxHideOnScrollModule} from "ngx-hide-on-scroll";
     ProjectsComponent,
     ContactComponent,
     FooterComponent,
-    SocialsComponent
+    SocialsComponent,
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,
