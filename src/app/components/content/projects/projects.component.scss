@@ -38,10 +38,10 @@
       .cards {
         justify-content: space-between;
 
-        &::after {
-          content: "";
-          flex: auto;
-        }
+        //&::after { // Why did I do this ?
+        //  content: "";
+        //  flex: auto;
+        //}
       }
 
     }

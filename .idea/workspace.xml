@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="update resume + add certifications" />
+    <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="build project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/contact/contact.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/projects/projects.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/projects/projects.component.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +35,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -109,7 +116,8 @@
       <workItem from="1696509663591" duration="1129000" />
       <workItem from="1696511049357" duration="97000" />
       <workItem from="1696513269107" duration="1075000" />
-      <workItem from="1696517503673" duration="3539000" />
+      <workItem from="1696517503673" duration="4921000" />
+      <workItem from="1696843258211" duration="570000" />
     </task>
     <task id="LOCAL-00001" summary="add socials component">
       <created>1644595145376</created>
@@ -258,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696521163901</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="build project">
+      <created>1696521320274</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696521320274</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +306,8 @@
     <MESSAGE value="change CV" />
     <MESSAGE value="build" />
     <MESSAGE value="update resume + add certifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="update resume + add certifications" />
+    <MESSAGE value="build project" />
+    <option name="LAST_COMMIT_MESSAGE" value="build project" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
   </component>
 </project>
