@@ -6,6 +6,7 @@
       "date": "Depuis Octobre 2022",
       "description": "En mission chez la MGEN (Mutuelle Générale de l'Education Nationale) en tant qu'Ingénieur Dévéloppement Fullstack.\nActeur majeur de la protection sociale et première mutuelle de la fonction publique, la MGEN propose des offres de santé et de prévoyance adaptées aux besoins de ses adhérents, ainsi que\ndes solutions d’épargne, de retraite, d’assurance immobilier, de voyage et de protection juridique.\nPour répondre aux enjeux de la réforme de la Protection Sociale Complémentaire, entrant dans le cadre de la loi de\ntransformation de la fonction publique de 2019, la MGEN a opté pour l’emploi d’Activ’ Infinite, un progiciel assurance\ndéveloppé par l’éditeur de logiciels CEGEDIM, comme solution coeur pour la gestion de ses contrats collectifs et a confié à\nCGI la responsabilité d’intégrer le produit dans son système d’information.",
       "activities": [
+        "Leader technique sur des sujets d'Architecture applicative, bonnes pratiques de développement, performance, expérience utilisateur, résolution de problèmes complexes, développement de prototypes et POCs, communication interfonctionnelle, amélioration des workflows, gestion de la documentation technique et formation des membres\n",
         "Développement des connecteurs permettant l’interfaçage entre le SI MGEN et le progiciel Activ’ Infinite (Microservices synchrones REST et asynchrones Kafka)",
         "Développement d'un système de suivi des événements et gestion des rejets métier avec IHM Angular",
         "Rédaction de tests unitaires et maintien de la qualité du code (SonarQube)",
@@ -42,7 +43,7 @@
       "title": "Ingénieur d'Études et Développement",
       "employer": "LCL",
       "date": "Septembre 2020 - Septembre 2022",
-      "description": "Membre du pôle Framework du Portail Ingénierie WEB, chargé de la maintenance et de l'évolution du Framework d'entreprise.",
+      "description": "Le Crédit Lyonnais, filiale du groupe Crédit Agricole SA et connue sous l'appellation LCL, est une banque française fondée à Lyon en 1863. Elle est considérée comme l'un des trois piliers de l'industrie bancaire française, avec BNP Paribas et Société Générale. LCL possède un Framework interne de développement conçu par l’entreprise, basé sur Spring et maintenu par l’équipe Framework dont j’étais membre. L’équipe fonctionne en support aux développeurs LCL mais aussi en projet, notamment sur le développement du portail des conseillers en agence.\n",
       "activities": [
         "Conception et développement d'applications fullstack Spring Boot/Angular",
         "Correction et évolution des applications métier",
@@ -65,7 +66,7 @@
         "MongoDB",
         "PostGreSQL",
         "Maven",
-        "Sonar",
+        "SonarQube",
         "Jenkins",
         "Git",
         "npm",
@@ -76,10 +77,10 @@
       "title": "Développeur SI",
       "employer": "GRTgaz",
       "date": "Octobre 2019 - Août 2020",
-      "description": "Programme RIO (Refonte du Système d'Information de l'Offre GRTgaz) en organisation agile.",
+      "description": "GRTgaz, filiale du groupe ENGIE, est l’un des deux gestionnaires de réseau de transport de gaz en France. Pour faire face à la fin du support d’Oracle Utilities Application Framework, socle applicatif principal des applications métier GRTgaz, l’entreprise s’est lancée dans la refonte intégrale et progressive de son système d’information vente avec une organisation agile et une pile applicative innovante : le programme RIO (Refonte du SI de l’Offre).",
       "activities": [
-        "Développement d'une application de suivi des incidents en production",
         "Refonte d'applications métier en Spring Boot/Angular",
+        "Développement d'une application de suivi des incidents en production",
         "Mise en place d'une stratégie d'API Management avec la solution Apigee",
         "Veille technologique"
       ],
