@@ -9,46 +9,6 @@
       "stack": null,
       "steps": [
         {
-          "title": "Développeur Fullstack Web & Mobile",
-          "employer": "Generali France",
-          "date": "Avril 2024 - Septembre 2025",
-          "description": "Avec près de deux siècles d’histoire et une implantation mondiale, Generali s’impose comme un acteur majeur de l’assurance.<br>Fondé en 1831 et implanté dans plus de 50 pays, Generali accompagne des dizaines de millions de clients particuliers, professionnels et entreprises à travers des solutions complètes en assurance vie, santé, prévoyance, retraite et dommages.<br>En France, Generali occupe une place centrale sur le marché et investit fortement dans l’innovation digitale afin de simplifier les parcours prospects, enrichir l’expérience client et moderniser ses plateformes en ligne.<br>Intégré sein du département PDI (Plateformes Digitales & Indemnisations) de Generali, qui pilote la transformation digitale des parcours prospects et clients ainsi que l’évolution des plateformes en ligne. J'intervenais au sein des trois squads du département, aux missions complémentaires : PVD, ECG et SPU.",
-          "activities": [
-            "<b>Équipe PVD (Parcours de Vente Digitaux)</b> : En charge de la digitalisation du parcours prospects/avant-vente. Son rôle est de fluidifier l’acquisition et la conversion commerciale à travers des espaces en ligne modernes : Espace Prospect, simulateurs, E-Signature, le suivi des leads et l’intégration avec les canaux partenaires.<br>Projets menés : <ul><li>Maintenance et évolution continue des parcours Simulateur Fast Quote (SFQ);</li><li>Maintenance et évolution du service d’E-Signature en interface avec DocuSign;</li><li>Rebranding de l’Espace Prospect à la suite de l’acquisition de La Médicale;</li><li>Digitalisation du parcours d’indemnisation santé (accident de la circulation).</li></ul>",
-            "<b>Équipe ECG (Espace Client Generali)</b> : Dédiée à l’expérience client post-adhésion, avec pour objectif de renforcer l’autonomie et la satisfaction des assurés. Elle développe et enrichit les fonctionnalités de l’espace client : Consultation et gestion des contrats, arbitrages, sinistres, paiement en ligne… pour réduire les frictions et digitaliser la gestion des contrats.<br>Projets menés : <ul><li>Développement du parcours d’arbitrage sur les contrats Retraite (PER), renforçant l’autonomie des clients et réduisant le recours aux conseillers;</li><li>Mise en place du paiement en ligne pour les clients hors prélèvement automatique, facilitant la collecte et le suivi des encaissements;</li><li>Gestion des contrats arrivés à terme, permettant aux clients d’effectuer des opérations sur leurs contrats à terme directement en ligne;</li><li>Développement de nouvelles fonctionnalités de gestion en libre-service sur l’Espace Client (gestion contractuelle, profil client, parcours digitaux) afin d’améliorer l’expérience utilisateur et réduire les appels au support.</li></ul>",
-            "<b>Équipe SPU (Sites Publics)</b> : Responsable des plateformes web ouvertes au grand public, garantissant leur disponibilité, conformité et évolutivité. Elle maintient et fait évoluer des sites stratégiques comme Generali.fr ou EFAR, contribuant à la visibilité de Generali et à la qualité de son image digitale.<br>Projets menés : <ul><li>Maintenance et évolutions d’EFAR (Ensemble Face aux Risques) : plateforme digitale gratuite et accessible aux particuliers qui permet de réaliser un diagnostic personnalisé de l’exposition aux risques naturels (inondations, sécheresse, feux de forêt, séismes…) et technologiques (accidents industriels, risque nucléaire), à partir d’une simple adresse.</li></ul>",
-            "Conception, développement et maintenance d’applications Spring Boot / Angular.",
-            "Développement de composants réutilisables (librairie React mobile, modules Angular) pour harmoniser l’expérience utilisateur.",
-            "Intégration de solutions tierces : FranceConnect, DocuSign, Axepta.",
-            "Suivi de la qualité logicielle avec SonarQube, rédaction de tests unitaires, adoption de bonnes pratiques clean code.",
-            "Rédaction de spécifications techniques détaillées et participation aux ateliers de conception avec les équipes d’architecture.",
-            "Contribution aux phases de recette fonctionnelle et technique, gestion des retours et correctifs.",
-            "Optimisation et migration des bases de données avec Liquibase.",
-            "Support et maintenance corrective et évolutive des applications en production.",
-            "Framework Agile Scrum : participation active aux instances, animation et interaction directe avec les Product Owners, UX/UI designers et équipes de test."
-          ],
-          "stack": [
-            "Java 17",
-            "Spring Boot",
-            "Angular 19",
-            "Capacitor",
-            "RxJS / NgXs Store",
-            "JUnit",
-            "PostGreSQL",
-            "Liquibase",
-            "Maven",
-            "Docker",
-            "Azure DevOps",
-            "ArgoCD",
-            "SonarQube",
-            "Git",
-            "npm",
-            "Agile",
-            "Jira",
-            "Confluence"
-          ]
-        },
-        {
           "title": "Consultant Lead Technico-Fonctionnel",
           "employer": "MGEN – Mutuelle Générale de l'Éducation Nationale",
           "date": "Octobre 2022 - Avril 2024",
@@ -86,6 +46,46 @@
             "APIgee",
             "HP ALM Quality Center",
             "Jira"
+          ]
+        },
+        {
+          "title": "Développeur Fullstack Web & Mobile",
+          "employer": "Generali France",
+          "date": "Avril 2024 - Septembre 2025",
+          "description": "Avec près de deux siècles d’histoire et une implantation mondiale, Generali s’impose comme un acteur majeur de l’assurance.<br>Fondé en 1831 et implanté dans plus de 50 pays, Generali accompagne des dizaines de millions de clients particuliers, professionnels et entreprises à travers des solutions complètes en assurance vie, santé, prévoyance, retraite et dommages.<br>En France, Generali occupe une place centrale sur le marché et investit fortement dans l’innovation digitale afin de simplifier les parcours prospects, enrichir l’expérience client et moderniser ses plateformes en ligne.<br>Intégré sein du département PDI (Plateformes Digitales & Indemnisations) de Generali, qui pilote la transformation digitale des parcours prospects et clients ainsi que l’évolution des plateformes en ligne. J'intervenais au sein des trois squads du département, aux missions complémentaires : PVD, ECG et SPU.",
+          "activities": [
+            "<b>Équipe PVD (Parcours de Vente Digitaux)</b> : En charge de la digitalisation du parcours prospects/avant-vente. Son rôle est de fluidifier l’acquisition et la conversion commerciale à travers des espaces en ligne modernes : Espace Prospect, simulateurs, E-Signature, le suivi des leads et l’intégration avec les canaux partenaires.<br>Projets menés : <ul><li>Maintenance et évolution continue des parcours Simulateur Fast Quote (SFQ);</li><li>Maintenance et évolution du service d’E-Signature en interface avec DocuSign;</li><li>Rebranding de l’Espace Prospect à la suite de l’acquisition de La Médicale;</li><li>Digitalisation du parcours d’indemnisation santé (accident de la circulation).</li></ul>",
+            "<b>Équipe ECG (Espace Client Generali)</b> : Dédiée à l’expérience client post-adhésion, avec pour objectif de renforcer l’autonomie et la satisfaction des assurés. Elle développe et enrichit les fonctionnalités de l’espace client : Consultation et gestion des contrats, arbitrages, sinistres, paiement en ligne… pour réduire les frictions et digitaliser la gestion des contrats.<br>Projets menés : <ul><li>Développement du parcours d’arbitrage sur les contrats Retraite (PER), renforçant l’autonomie des clients et réduisant le recours aux conseillers;</li><li>Mise en place du paiement en ligne pour les clients hors prélèvement automatique, facilitant la collecte et le suivi des encaissements;</li><li>Gestion des contrats arrivés à terme, permettant aux clients d’effectuer des opérations sur leurs contrats à terme directement en ligne;</li><li>Développement de nouvelles fonctionnalités de gestion en libre-service sur l’Espace Client (gestion contractuelle, profil client, parcours digitaux) afin d’améliorer l’expérience utilisateur et réduire les appels au support.</li></ul>",
+            "<b>Équipe SPU (Sites Publics)</b> : Responsable des plateformes web ouvertes au grand public, garantissant leur disponibilité, conformité et évolutivité. Elle maintient et fait évoluer des sites stratégiques comme Generali.fr ou EFAR, contribuant à la visibilité de Generali et à la qualité de son image digitale.<br>Projets menés : <ul><li>Maintenance et évolutions d’EFAR (Ensemble Face aux Risques) : plateforme digitale gratuite et accessible aux particuliers qui permet de réaliser un diagnostic personnalisé de l’exposition aux risques naturels (inondations, sécheresse, feux de forêt, séismes…) et technologiques (accidents industriels, risque nucléaire), à partir d’une simple adresse.</li></ul>",
+            "Conception, développement et maintenance d’applications Spring Boot / Angular.",
+            "Développement de composants réutilisables (librairie React mobile, modules Angular) pour harmoniser l’expérience utilisateur.",
+            "Intégration de solutions tierces : FranceConnect, DocuSign, Axepta.",
+            "Suivi de la qualité logicielle avec SonarQube, rédaction de tests unitaires, adoption de bonnes pratiques clean code.",
+            "Rédaction de spécifications techniques détaillées et participation aux ateliers de conception avec les équipes d’architecture.",
+            "Contribution aux phases de recette fonctionnelle et technique, gestion des retours et correctifs.",
+            "Optimisation et migration des bases de données avec Liquibase.",
+            "Support et maintenance corrective et évolutive des applications en production.",
+            "Framework Agile Scrum : participation active aux instances, animation et interaction directe avec les Product Owners, UX/UI designers et équipes de test."
+          ],
+          "stack": [
+            "Java 17",
+            "Spring Boot",
+            "Angular 19",
+            "Capacitor",
+            "RxJS / NgXs Store",
+            "JUnit",
+            "PostGreSQL",
+            "Liquibase",
+            "Maven",
+            "Docker",
+            "Azure DevOps",
+            "ArgoCD",
+            "SonarQube",
+            "Git",
+            "npm",
+            "Agile",
+            "Jira",
+            "Confluence"
           ]
         }
       ]
