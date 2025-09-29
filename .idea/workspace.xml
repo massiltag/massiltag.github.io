@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/model/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/profile.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/model/work-experience.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/work-experience.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/profile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/work-experience.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/work-experience.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +15,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Massil Taguemout &lt;massitaguemout@gmail.com&gt;" />
         <option value="Massil Taguemout &lt;massiltag@icloud.com&gt;" />
       </list>
     </option>
@@ -149,7 +141,7 @@
       <workItem from="1696513269107" duration="1075000" />
       <workItem from="1696517503673" duration="4921000" />
       <workItem from="1696843258211" duration="570000" />
-      <workItem from="1758979764688" duration="7151000" />
+      <workItem from="1758979764688" duration="7361000" />
     </task>
     <task id="LOCAL-00001" summary="add socials component">
       <created>1644595145376</created>
@@ -305,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696521320274</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update resume">
+      <option name="closed" value="true" />
+      <created>1759109359058</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1759109359058</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +323,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add socials component" />
     <MESSAGE value="changed my information" />
     <MESSAGE value="add activities list" />
@@ -339,7 +341,8 @@
     <MESSAGE value="build" />
     <MESSAGE value="update resume + add certifications" />
     <MESSAGE value="build project" />
-    <option name="LAST_COMMIT_MESSAGE" value="build project" />
+    <MESSAGE value="update resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="update resume" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
   </component>
 </project>
