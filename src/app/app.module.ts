@@ -19,6 +19,7 @@ import { FooterComponent } from './components/layout/footer/footer.component';
 import { SocialsComponent } from './components/content/socials/socials.component';
 import {NgxHideOnScrollModule} from "ngx-hide-on-scroll";
 import { CertificationsComponent } from './components/content/certifications/certifications.component';
+import { TimelineComponent } from './components/content/experience/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CertificationsComponent } from './components/content/certifications/cer
     ContactComponent,
     FooterComponent,
     SocialsComponent,
-    CertificationsComponent
+    CertificationsComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,

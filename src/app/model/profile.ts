@@ -10,6 +10,7 @@ export interface Profile {
   degrees: Degree[];
   certifications: Degree[];
   about: string;
+  aboutJobSearch: string;
   socials: Social[];
 }
 

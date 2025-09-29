@@ -24,10 +24,16 @@
                  id="content-{{ work.history.indexOf(w) + 1 }}"
                  [ngClass]="{ 'visible': activeTab == work.history.indexOf(w) + 1 }"
             >
+
+              <!-- Données principales de l'expérience -->
                 <h3 class="calibre">{{ w.title }}</h3>
                 <p class="date text-muted">{{ w.date }}</p>
-                <p class="description">{{ w.description }}</p>
-                <p class="description">Activités menées :</p>
+                <p class="description" [innerHTML]="w.description"></p>
+
+                <!-- Timeline si steps -->
+                <app-timeline *ngIf="w.steps" [w]="w"></app-timeline>
+
+                <p class="description" *ngFor="w.activities?.length">Activités menées :</p>
                 <div class="activities">
                     <ul>
                         <li *ngFor="let a of w.activities">{{ a }}</li>

@@ -1,10 +1,11 @@
 {
-  "email": "massiltag@icloud.com",
+  "email": "massil@taguemout.com",
   "location": "Paris, France",
   "name": "Massil Taguemout",
   "title": "Consultant Ingénieur IT",
   "subtitle": "",
   "about": "Diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne, ainsi que de Sorbonne Université, je suis actuellement Consultant Ingénieur en Technologies de Information chez CGI France - Paris Financial Services.",
+  "aboutJobSearch": "Diplômé du Master MIAGE-IKSEM (« Information Knowledge, Systems Engineering and Management »), entièrement dispensé en anglais par l'Université Paris I Panthéon Sorbonne, ainsi que de Sorbonne Université, je suis actuellement Consultant Ingénieur en Technologies de Information chez CGI France - Paris Financial Services.<br>Solide sur les aspects techniques mais également à l’aise sur la compréhension fonctionnelle des besoins métiers, j’interviens aussi bien en conception qu’en mise en oeuvre de solutions à forte valeur ajoutée.<br>Communicant, proactif et force de proposition, mon objectif est de concevoir et construire à vos côtés des solutions concrètes\nqui allient performance technique et impact business.",
   "phone": "+33782850480",
   "avatar": "avatar.png",
   "profile": "profile.jpg",
@@ -67,8 +68,8 @@
   ],
   "socials": [
     {
-      "name": "massiltagpro@icloud.com",
-      "link": "mailto:massiltagpro@icloud.com",
+      "name": "massil@taguemout.com",
+      "link": "mailto:massil@taguemout.com",
       "icon": "bi-envelope-fill"
     },
     {

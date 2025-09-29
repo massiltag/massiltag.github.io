@@ -1,0 +1,76 @@
+.timeline {
+  position: relative;
+  margin: 20px 0;
+  padding-left: 0; // espace entre ligne et contenu
+
+  &::before {
+    padding-top: 5px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px; // ligne au milieu des points
+    width: 2px;
+    height: 100%;
+    background: var(--cyan);
+    opacity: 0.6;
+  }
+
+  .timeline-step {
+    position: relative;
+    margin-bottom: 40px;
+
+    .dot {
+      position: absolute;
+      top: 2.5px;
+      left: 14px; // alignement avec la ligne
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--navy);
+      border: 2px solid var(--cyan);
+      z-index: 2;
+    }
+
+    .info {
+      margin-left: 40px; // aligner le contenu à droite de la ligne
+      color: var(--lightest-slate);
+
+      h4 {
+        margin: 0 0 5px 0;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--cyan);
+      }
+
+      .date {
+        font-size: 12px;
+        margin-bottom: 5px;
+        color: var(--darker-slate) !important;
+      }
+
+      .description {
+        margin-bottom: 5px;
+        font-size: 15px;
+        text-align: justify;
+      }
+
+      ul {
+        margin: 5px 0 10px 20px;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+
+        .skill {
+          background-color: var(--cyan);
+          color: var(--navy);
+          padding: 4px 6px;
+          border-radius: 8px;
+          font-size: 11px;
+          margin: 2px 6px 2px 0;
+        }
+      }
+    }
+  }
+}

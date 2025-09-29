@@ -7,7 +7,7 @@
         <span class="name calibre">{{ profile.name }}.</span>
         <span class="title calibre">{{ profile.title }}.</span>
         <span *ngIf="profile.subtitle" class="subtitle calibre">{{ profile.subtitle }}.</span>
-        <p class="about">{{ profile.about }}</p>
+        <p class="about" [innerHTML]="profile.aboutJobSearch"></p>
       </div>
       <div fxFlex="30%" [style.width]="'100%'">
         <img class="profile-picture" src="assets/img/{{ profile.profile }}" alt="Profile picture">

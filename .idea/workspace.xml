@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c0246eaf-47df-462e-b565-b4ea814fd6cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/experience/experience.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/heading/heading.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/layout/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/model/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/model/work-experience.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/work-experience.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/profile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/json/work-experience.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/json/work-experience.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +35,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "massiltag"
+  }
+}]]></component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -38,15 +52,39 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/massiltag/massiltag.github.io.git",
+    "accountId": "70b8bcb7-b191-4bba-9777-1e73d13befde"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="24xQvkP76anasONrkXrtxCSEwzV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "C:/Users/b302uzu/Desktop/massiltag.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.start.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\b302uzu\\Desktop\\massiltag.github.io\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mtaguemout\Desktop\massiltag.github.io\src\assets\img" />
@@ -63,7 +101,7 @@
       <scripts>
         <script value="build" />
       </scripts>
-      <node-interpreter value="/usr/local/bin/node" />
+      <node-interpreter value="$PROJECT_DIR$/../../../../JTB/nodejs/nodejs-v16.20.0/node" />
       <package-manager value="npm" />
       <envs />
       <method v="2" />
@@ -74,7 +112,7 @@
       <scripts>
         <script value="start" />
       </scripts>
-      <node-interpreter value="/usr/local/bin/node" />
+      <node-interpreter value="$PROJECT_DIR$/../../../../JTB/nodejs/nodejs-v16.20.0/node" />
       <envs />
       <method v="2" />
     </configuration>
@@ -84,6 +122,13 @@
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,6 +149,7 @@
       <workItem from="1696513269107" duration="1075000" />
       <workItem from="1696517503673" duration="4921000" />
       <workItem from="1696843258211" duration="570000" />
+      <workItem from="1758979764688" duration="7151000" />
     </task>
     <task id="LOCAL-00001" summary="add socials component">
       <created>1644595145376</created>
@@ -275,7 +321,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add socials component" />

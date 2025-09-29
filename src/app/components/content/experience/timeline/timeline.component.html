@@ -1,0 +1,16 @@
+<div *ngIf="w && w.steps && w.steps.length > 0" class="timeline">
+  <div class="timeline-step" *ngFor="let step of w.steps">
+    <div class="dot"></div>
+    <div class="info">
+      <h4>{{ step.title }}</h4>
+      <p class="date text-muted">{{ step.date }}</p>
+      <p class="description" [innerHTML]="step.description"></p>
+      <ul>
+        <li *ngFor="let a of step.activities"><span [innerHTML]="a"></span></li>
+      </ul>
+      <div class="skills">
+        <span class="skill code" *ngFor="let s of step.stack">{{ s }}</span>
+      </div>
+    </div>
+  </div>
+</div>

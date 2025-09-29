@@ -9,4 +9,14 @@ export interface Work {
   description: string;
   activities: string[];
   stack: string[];
+  steps: WorkStep[];
+}
+
+export interface WorkStep {
+  title: string;
+  employer: string;
+  date: string;
+  description: string;
+  activities: string[];
+  stack: string[];
 }
