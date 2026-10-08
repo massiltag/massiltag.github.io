@@ -9,46 +9,6 @@
       "stack": null,
       "steps": [
         {
-          "title": "Consultant Lead Technico-Fonctionnel",
-          "employer": "MGEN – Mutuelle Générale de l'Éducation Nationale",
-          "date": "Octobre 2022 - Avril 2024",
-          "description": "Acteur majeur de la protection sociale et première mutuelle de la fonction publique, la MGEN (Mutuelle Générale de l’Éducation Nationale), propose des offres de santé et de prévoyance adaptées aux besoins de ses adhérents, ainsi que des solutions d’épargne, de retraite, d’assurance immobilier, de voyage et de protection juridique.<br>Pour répondre aux enjeux de la réforme de la Protection Sociale Complémentaire, entrant dans le cadre de la loi de transformation de la fonction publique de 2019, la MGEN a opté pour l’emploi d’Activ’ Infinite, un progiciel assurance développé par l’éditeur de logiciels CEGEDIM, comme solution coeur pour la gestion de ses contrats collectifs et a confié à CGI la responsabilité d’intégrer le produit dans son système d’information.",
-          "activities": [
-            "Encadrement d’une équipe de développeurs, formation des nouveaux arrivants et accompagnement dans la montée en compétences techniques et méthodologiques",
-            "Coordination entre l’équipe de développement et le client : animation des échanges, clarification des besoins et suivi de la bonne compréhension des enjeux métiers.",
-            "Spécification fonctionnelle détaillée des besoins en collaboration étroite avec les équipes client pour garantir l’adéquation entre les processus métiers et les solutions techniques développées.",
-            "Développement des connecteurs permettant l’interfaçage entre le SI MGEN et le progiciel Activ’ Infinite (Microservices synchrones REST et asynchrones Kafka)",
-            "Développement d'un système de suivi des événements et gestion des rejets métier avec IHM Angular",
-            "Rédaction de tests unitaires et maintien de la qualité du code (SonarQube)",
-            "Rédaction de spécifications techniques détaillées",
-            "Garant de la satisfaction client : centralisation, analyse et arbitrage des retours pour assurer la cohérence entre les besoins métier et les solutions techniques, tout en fédérant l’équipe autour des objectifs communs.",
-            "Coordination technique avec les équipes client pour la spécification et la validation des contrats d’interface",
-            "Assistance aux tests End-to-End",
-            "Support aux équipes de développement client"
-          ],
-          "stack": [
-            "Java 11",
-            "Angular",
-            "Spring Boot",
-            "API REST",
-            "Kafka",
-            "JUnit",
-            "Javascript",
-            "Typescript",
-            "Bootstrap",
-            "PostGreSQL",
-            "Maven",
-            "SonarQube",
-            "GitLab Pipelines",
-            "Git",
-            "npm",
-            "Postman",
-            "APIgee",
-            "HP ALM Quality Center",
-            "Jira"
-          ]
-        },
-        {
           "title": "Développeur Fullstack Web & Mobile",
           "employer": "Generali France",
           "date": "Avril 2024 - Septembre 2025",
@@ -86,6 +46,46 @@
             "Agile",
             "Jira",
             "Confluence"
+          ]
+        },
+        {
+          "title": "Consultant Lead Technico-Fonctionnel",
+          "employer": "MGEN – Mutuelle Générale de l'Éducation Nationale",
+          "date": "Octobre 2022 - Avril 2024",
+          "description": "Acteur majeur de la protection sociale et première mutuelle de la fonction publique, la MGEN (Mutuelle Générale de l’Éducation Nationale), propose des offres de santé et de prévoyance adaptées aux besoins de ses adhérents, ainsi que des solutions d’épargne, de retraite, d’assurance immobilier, de voyage et de protection juridique.<br>Pour répondre aux enjeux de la réforme de la Protection Sociale Complémentaire, entrant dans le cadre de la loi de transformation de la fonction publique de 2019, la MGEN a opté pour l’emploi d’Activ’ Infinite, un progiciel assurance développé par l’éditeur de logiciels CEGEDIM, comme solution coeur pour la gestion de ses contrats collectifs et a confié à CGI la responsabilité d’intégrer le produit dans son système d’information.",
+          "activities": [
+            "Encadrement d’une équipe de développeurs, formation des nouveaux arrivants et accompagnement dans la montée en compétences techniques et méthodologiques",
+            "Coordination entre l’équipe de développement et le client : animation des échanges, clarification des besoins et suivi de la bonne compréhension des enjeux métiers.",
+            "Spécification fonctionnelle détaillée des besoins en collaboration étroite avec les équipes client pour garantir l’adéquation entre les processus métiers et les solutions techniques développées.",
+            "Développement des connecteurs permettant l’interfaçage entre le SI MGEN et le progiciel Activ’ Infinite (Microservices synchrones REST et asynchrones Kafka)",
+            "Développement d'un système de suivi des événements et gestion des rejets métier avec IHM Angular",
+            "Rédaction de tests unitaires et maintien de la qualité du code (SonarQube)",
+            "Rédaction de spécifications techniques détaillées",
+            "Garant de la satisfaction client : centralisation, analyse et arbitrage des retours pour assurer la cohérence entre les besoins métier et les solutions techniques, tout en fédérant l’équipe autour des objectifs communs.",
+            "Coordination technique avec les équipes client pour la spécification et la validation des contrats d’interface",
+            "Assistance aux tests End-to-End",
+            "Support aux équipes de développement client"
+          ],
+          "stack": [
+            "Java 11",
+            "Angular",
+            "Spring Boot",
+            "API REST",
+            "Kafka",
+            "JUnit",
+            "Javascript",
+            "Typescript",
+            "Bootstrap",
+            "PostGreSQL",
+            "Maven",
+            "SonarQube",
+            "GitLab Pipelines",
+            "Git",
+            "npm",
+            "Postman",
+            "APIgee",
+            "HP ALM Quality Center",
+            "Jira"
           ]
         }
       ]

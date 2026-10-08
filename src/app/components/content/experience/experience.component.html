@@ -4,45 +4,54 @@
 
     <div class="container">
 
-        <div class="tabs">
-            <a *ngFor="let w of work.history"
-               class="tab {{ work.history.indexOf(w) + 1 }}" id="header-{{ work.history.indexOf(w) + 1 }}"
-               [ngClass]="{ 'active': activeTab == work.history.indexOf(w) + 1 }"
-               (click)="activeTab = work.history.indexOf(w) + 1"
-            >
-                {{ w.employer }}
-            </a>
+        <div class="main-timeline">
 
-            <span class="highlighter"></span>
+            <ng-container *ngFor="let w of work.history">
 
-        </div>
+                <div class="step">
+                    <div class="dot"></div>
+                    <div class="info">
+                        <h3 class="calibre">{{ w.title }}</h3>
+                        <p class="employer">{{ w.employer }}</p>
+                        <p class="date">{{ w.date }}</p>
+                        <p class="description" [innerHTML]="w.description"></p>
 
-        <div class="content">
+                        <ng-container *ngIf="w.activities?.length">
+                            <p class="description">Activités menées :</p>
+                            <ul class="activities">
+                                <li *ngFor="let a of w.activities">{{ a }}</li>
+                            </ul>
+                        </ng-container>
 
-            <div *ngFor="let w of work.history"
-                 class="content-section"
-                 id="content-{{ work.history.indexOf(w) + 1 }}"
-                 [ngClass]="{ 'visible': activeTab == work.history.indexOf(w) + 1 }"
-            >
-
-              <!-- Données principales de l'expérience -->
-                <h3 class="calibre">{{ w.title }}</h3>
-                <p class="date text-muted">{{ w.date }}</p>
-                <p class="description" [innerHTML]="w.description"></p>
-
-                <!-- Timeline si steps -->
-                <app-timeline *ngIf="w.steps" [w]="w"></app-timeline>
-
-                <p class="description" *ngFor="w.activities?.length">Activités menées :</p>
-                <div class="activities">
-                    <ul>
-                        <li *ngFor="let a of w.activities">{{ a }}</li>
-                    </ul>
+                        <div class="skills" *ngIf="w.stack?.length">
+                            <span class="skill code" *ngFor="let s of w.stack">{{ s }}</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="skills">
-                    <span class="skill code" *ngFor="let s of w.stack">{{ s }}</span>
+
+                <!-- Missions rattachées à l'employeur, sur la même ligne -->
+                <div class="step sub-step" *ngFor="let m of w.steps">
+                    <div class="dot"></div>
+                    <div class="info">
+                        <h4 class="calibre">{{ m.title }}</h4>
+                        <p class="employer">{{ m.employer }}</p>
+                        <p class="date">{{ m.date }}</p>
+                        <p class="description" [innerHTML]="m.description"></p>
+
+                        <ng-container *ngIf="m.activities?.length">
+                            <p class="description">Activités menées :</p>
+                            <ul class="activities">
+                                <li *ngFor="let a of m.activities"><span [innerHTML]="a"></span></li>
+                            </ul>
+                        </ng-container>
+
+                        <div class="skills" *ngIf="m.stack?.length">
+                            <span class="skill code" *ngFor="let s of m.stack">{{ s }}</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
+
+            </ng-container>
 
         </div>
     </div>

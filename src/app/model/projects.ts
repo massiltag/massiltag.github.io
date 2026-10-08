@@ -7,4 +7,6 @@ export interface Project {
   date: string;
   description: string;
   link: string;
+  disabled?: boolean;
+  icon?: string;
 }

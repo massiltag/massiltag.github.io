@@ -6,16 +6,32 @@
   .container {
     margin: 20px auto;
 
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
     .card {
       color: var(--lightest-slate);
-      width: 32%;
-      margin: 5px;
       background: unset;
       border: 1px solid var(--lightest-navy);
+      transition: border-color 0.25s ease, transform 0.25s ease;
 
-      &-title { margin-bottom: 2px; }
+      &:hover {
+        border-color: var(--cyan);
+        transform: translateY(-3px);
+      }
+
+      &-title {
+        margin-bottom: 2px;
+        padding-right: 30px; // keeps long names clear of the link icon
+      }
       &-subtitle { font-size: 13px; }
-      &-text { text-align: justify; }
+      &-text {
+        text-align: left;
+        line-height: 1.6;
+      }
 
       &-link {
         text-decoration: none;
@@ -24,51 +40,30 @@
         font-size: 20px;
         top: 13px;
         right: 15px;
+        transition: color 0.25s ease;
+
+        &:hover { color: var(--cyan); }
+
+        // Sized and aligned like a Bootstrap Icons glyph
+        .svg-icon {
+          width: 1em;
+          height: 1em;
+          fill: currentColor;
+          vertical-align: -0.125em;
+        }
       }
     }
   }
-
 }
 
 @media (min-width: $breakpoint) {
-  .projects {
-    .container {
-      width: 80%;
-
-      .cards {
-        justify-content: space-between;
-
-        //&::after { // Why did I do this ?
-        //  content: "";
-        //  flex: auto;
-        //}
-      }
-
-    }
-
-  }
+  .projects .container { width: 80%; }
 }
 
 @media (max-width: 1007px) {
-  .projects {
-
-    .cards {
-      justify-content: space-between;
-      .card { width: 48% }
-    }
-
-
-  }
+  .projects .container .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: $breakpoint) {
-  .projects {
-
-    .cards {
-      justify-content: space-between;
-      .card { width: 100% }
-    }
-
-
-  }
+  .projects .container .cards { grid-template-columns: 1fr; }
 }

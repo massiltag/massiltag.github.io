@@ -1,4 +1,3 @@
-// @ts-nocheck
 import {Component, Input, OnInit} from '@angular/core';
 import {WorkExperience} from "../../../model/work-experience";
 
@@ -9,8 +8,6 @@ import {WorkExperience} from "../../../model/work-experience";
 })
 export class ExperienceComponent implements OnInit {
   @Input() work!: WorkExperience;
-
-  activeTab = 1;
 
   constructor() { }
 

@@ -7,25 +7,12 @@
   box-shadow: 0px 15px 10px -15px #111;
   position: fixed;
   top: 0;
-  z-index: 10;
+  z-index: 1030;
   transition: all 350ms ease-in-out;
 
-  .shell {
-    height: inherit;
-    line-height: 70px;
-    align-content: center;
-    margin: auto auto auto 10px;
-    display: inline;
-    float: left;
-    font-size: 35px;
-
-    .animated {
-      animation: opacityOn 1500ms infinite forwards;
-    }
-  }
   .avatar {
-    height: inherit;
-    margin: auto;
+    height: 40px;
+    margin: 15px 0 15px 15px;
     float: left;
   }
 

@@ -1,9 +1,5 @@
-<div class="bar" id="navbar" ngxHideOnScroll
-     [propertyUsedToHide]="'transform'"
-     [valueWhenHidden]="'translateY(-100%)'"
-     [valueWhenShown]="'translateY(0%)'">
-  <!--img class="avatar" src="../../../../assets/img/avatar.png" alt="avatar"/-->
-  <span class="shell code accent">><span class="animated">_</span></span>
+<div class="bar" id="navbar">
+  <a href="#heading"><img class="avatar" src="assets/img/avatar.png" alt="Massil Taguemout"/></a>
 
   <nav ngxNavbarDynamicExpand class="navbar-light bg-light">
     <button class="navbar-toggler" type="button" (click)="collapse.toggle()" (blur)="collapse.toggle()">
@@ -26,7 +22,7 @@
         <li class="nav-item">
           <a class="nav-link code accent" href="#contact">Contact</a>
         </li>
-        <li class="nav-item" id="dl" data-toggle="tooltip" data-placement="bottom" title="Télécharger mon CV">
+        <li class="nav-item" id="dl" hidden data-toggle="tooltip" data-placement="bottom" title="Télécharger mon CV">
           <a class="nav-link code accent" href="assets/files/CV-Massil-Taguemout.pdf">
             <i class="bi bi-cloud-arrow-down-fill"></i>
           </a>

@@ -10,13 +10,16 @@ $breakpoint: 800px;
   --lightest-slate: #ccd6f6;
 }
 
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background: var(--navy)!important;
   color: var(--lightest-slate)!important;
-  margin: 5px;
-  height: 100%;
+  margin: 0;
   font-weight: 500;
-  scroll-behavior: smooth;
 }
 
 .accent {

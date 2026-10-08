@@ -17,9 +17,7 @@ import {FlexLayoutModule} from "@angular/flex-layout";
 import { ContactComponent } from './components/content/contact/contact.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { SocialsComponent } from './components/content/socials/socials.component';
-import {NgxHideOnScrollModule} from "ngx-hide-on-scroll";
 import { CertificationsComponent } from './components/content/certifications/certifications.component';
-import { TimelineComponent } from './components/content/experience/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -33,8 +31,7 @@ import { TimelineComponent } from './components/content/experience/timeline/time
     ContactComponent,
     FooterComponent,
     SocialsComponent,
-    CertificationsComponent,
-    TimelineComponent
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,
@@ -43,8 +40,7 @@ import { TimelineComponent } from './components/content/experience/timeline/time
     BrowserAnimationsModule,
     NgxNavbarModule,
     AccordionModule.forRoot(),
-    FlexLayoutModule,
-    NgxHideOnScrollModule
+    FlexLayoutModule
   ],
   providers: [ HttpClient ],
   bootstrap: [AppComponent]
