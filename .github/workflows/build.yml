@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  push:
+    branches: [develop]
+  pull_request:
+    branches: [develop]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # type-check, build into docs/, prune unused assets
+      - run: npm run build
+
+      # GitHub Pages serves the committed docs/: fail if it no longer matches the source
+      - name: Check docs/ is up to date
+        run: |
+          if [ -n "$(git status --porcelain -- docs)" ]; then
+            git status --short -- docs
+            echo "::error::docs/ is out of date. Run 'npm run build' and commit docs/."
+            exit 1
+          fi
