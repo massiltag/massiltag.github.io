@@ -1,0 +1,183 @@
+---
+import { getContent, profile } from '../i18n';
+import type { Lang } from '../i18n/types';
+
+interface Props {
+  lang: Lang;
+}
+
+const t = getContent(Astro.props.lang);
+const [first, last] = profile.name.split(' ');
+---
+
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <p class="hero-eyebrow" data-hero-fade>{t.hero.eyebrow}</p>
+
+    <h1 class="hero-name" aria-label={profile.name}>
+      <span class="hero-line" aria-hidden="true">
+        {[...first].map((c) => <span class="hero-char">{c}</span>)}
+      </span>
+      <span class="hero-line hero-line-2" aria-hidden="true">
+        {[...last].map((c) => <span class="hero-char">{c}</span>)}
+      </span>
+    </h1>
+
+    <p class="hero-tagline" data-hero-fade>{t.hero.tagline}</p>
+  </div>
+
+  <a class="hero-scroll" href="#about" data-hero-fade>
+    <span>{t.ui.scroll}</span>
+    <span class="hero-scroll-line" aria-hidden="true"></span>
+  </a>
+
+  <!-- the circuit draws the "MT" chip here; this box only gives it a place in the layout -->
+  <div class="chip-anchor" aria-hidden="true"></div>
+</section>
+
+<style>
+  .chip-anchor {
+    position: absolute;
+    top: 24%;
+    right: calc(var(--gutter) + 9%);
+    width: clamp(8.25rem, 12vw, 11rem);
+    aspect-ratio: 1;
+    pointer-events: none;
+  }
+
+  @media (max-width: 53.6875rem) {
+    .chip-anchor {
+      top: calc(var(--header-h) + 2.5rem);
+      right: auto;
+      left: 50%;
+      width: 7rem;
+      transform: translateX(-50%);
+    }
+  }
+
+  .hero {
+    position: relative;
+    z-index: 2;
+    min-height: 100svh;
+    display: flex;
+    align-items: flex-end;
+    padding: calc(var(--header-h) + 2.5rem) var(--gutter) clamp(8rem, 25vh, 16rem);
+  }
+
+  .hero-inner {
+    width: 100%;
+    /* a little wider than the sections so the name sits further left on large screens */
+    max-width: calc(var(--max) + 22rem);
+    margin: 0 auto;
+  }
+
+  .hero-eyebrow {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.625rem;
+  }
+
+  .hero-name {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: clamp(3.5rem, 11vw, 10.75rem);
+    line-height: 0.92;
+    letter-spacing: -0.055em;
+  }
+
+  .hero-line {
+    display: block;
+    overflow: hidden;
+    /* room for descenders (the g of Taguemout) inside the reveal mask */
+    padding-bottom: 0.2em;
+    margin-bottom: -0.14em;
+  }
+
+  .hero-line-2 {
+    color: var(--ink-faint);
+  }
+
+  .hero-char {
+    display: inline-block;
+    will-change: transform;
+  }
+
+  .hero-tagline {
+    margin-top: 2.25rem;
+    max-width: 38ch;
+    font-size: clamp(1rem, 1.4vw, 1.1875rem);
+    line-height: 1.6;
+    color: var(--ink-dim);
+  }
+
+  .hero-scroll {
+    position: absolute;
+    right: var(--gutter);
+    bottom: clamp(8rem, 25vh, 16rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.875rem;
+    font-size: 0.625rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    writing-mode: vertical-rl;
+  }
+
+  .hero-scroll-line {
+    position: relative;
+    width: 1px;
+    height: 4rem;
+    background: var(--line-strong);
+    overflow: hidden;
+  }
+
+  .hero-scroll-line::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 40%;
+    background: var(--accent);
+    animation: drip 2.2s var(--ease-in-out) infinite;
+  }
+
+  @keyframes drip {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(260%); }
+  }
+
+  /* the intro hands off to the hero: hidden until main.ts plays the entrance */
+  :global(.js) .hero-char {
+    transform: translateY(105%);
+  }
+
+  :global(.js) [data-hero-fade] {
+    opacity: 0;
+  }
+
+  @media (max-width: 45rem) {
+    .hero-scroll {
+      display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(.js) .hero-char {
+      transform: none;
+    }
+
+    :global(.js) [data-hero-fade] {
+      opacity: 1;
+    }
+
+    .hero-scroll-line::after {
+      animation: none;
+    }
+  }
+</style>

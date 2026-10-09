@@ -1,0 +1,300 @@
+---
+import { getContent } from '../i18n';
+import type { Lang, Mission } from '../i18n/types';
+
+interface Props {
+  lang: Lang;
+}
+
+const t = getContent(Astro.props.lang);
+
+type Entry = Mission & { kind: 'job' | 'mission'; parent?: string };
+
+const entries: Entry[] = t.experience.jobs.flatMap((job) => [
+  { ...job, kind: 'job' as const },
+  ...(job.missions ?? []).map((m) => ({ ...m, kind: 'mission' as const, parent: job.employer })),
+]);
+---
+
+<section class="section experience" id="experience">
+  <div class="section-inner">
+    <header class="experience-head">
+      <p class="section-label">{t.experience.label}</p>
+      <h2 class="section-title" data-split set:html={t.experience.title} />
+      <p class="section-intro" data-reveal>{t.experience.intro}</p>
+    </header>
+
+    <!-- the timeline line itself is the circuit's main trace, drawn by scripts/circuit.ts -->
+    <div class="timeline" data-timeline>
+      <ol class="timeline-list">
+      {
+        entries.map((e) => (
+          <li class:list={['entry', `entry-${e.kind}`]} data-entry>
+            <span class="entry-marker" aria-hidden="true" />
+            <div class="entry-date">{e.date}</div>
+
+            <div class="entry-body">
+              <p class="entry-employer">{e.employer}</p>
+              <h3 class="entry-title">{e.title}</h3>
+              <div class="entry-description" set:html={e.description} />
+
+              {e.activities.length > 0 && (
+                <details class="entry-details">
+                  <summary>
+                    <span>{t.ui.details}</span>
+                    <span class="entry-plus" aria-hidden="true" />
+                  </summary>
+                  <ul class="entry-activities">
+                    {e.activities.map((a) => (
+                      <li set:html={a} />
+                    ))}
+                  </ul>
+                </details>
+              )}
+
+              {e.stack.length > 0 && (
+                <ul class="chips entry-stack" aria-label="Stack">
+                  {e.stack.map((s) => (
+                    <li class="chip">{s}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </li>
+        ))
+      }
+      </ol>
+    </div>
+  </div>
+</section>
+
+<style>
+  .experience-head {
+    margin-bottom: clamp(4.375rem, 10vw, 7.5rem);
+  }
+
+  .timeline {
+    --marker-x: 13.125rem;
+    position: relative;
+  }
+
+  .timeline-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .entry {
+    position: relative;
+    display: grid;
+    grid-template-columns: var(--marker-x) minmax(0, 1fr);
+    padding-bottom: clamp(4.375rem, 9vw, 6.875rem);
+  }
+
+  .entry:last-child {
+    padding-bottom: 0;
+  }
+
+  .entry-marker {
+    position: absolute;
+    left: var(--marker-x);
+    top: 0.375rem;
+    width: 0.9375rem;
+    height: 0.9375rem;
+    margin-left: -0.4375rem;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 1px solid var(--accent);
+    transition: background-color 0.6s ease, box-shadow 0.6s ease;
+  }
+
+  .entry.is-active .entry-marker {
+    background: var(--accent);
+    box-shadow: 0 0 0 0.375rem rgba(124, 140, 255, 0.12), 0 0 1.375rem rgba(124, 140, 255, 0.6);
+  }
+
+  .entry-date {
+    padding: 0.125rem 2.75rem 0 0;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    text-align: right;
+    line-height: 1.6;
+  }
+
+  .entry-body {
+    padding-left: 3.5rem;
+    max-width: 51.25rem;
+  }
+
+  .entry-employer {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  .entry-title {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: clamp(1.625rem, 3vw, 2.5rem);
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+  }
+
+  .entry-description {
+    margin-top: 1.375rem;
+    color: var(--ink-dim);
+    font-size: 0.9688rem;
+    line-height: 1.75;
+  }
+
+  /* missions sit on the same line, smaller and indented under their employer */
+  .entry-mission {
+    padding-bottom: clamp(3.5rem, 7vw, 5.25rem);
+  }
+
+  .entry-mission .entry-marker {
+    width: 0.5625rem;
+    height: 0.5625rem;
+    margin-left: -0.25rem;
+    top: 0.5rem;
+  }
+
+  .entry-mission .entry-body {
+    padding-left: 5.5rem;
+    position: relative;
+  }
+
+  .entry-mission .entry-body::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.75rem;
+    width: 4rem;
+    height: 1px;
+    background: linear-gradient(90deg, var(--accent), transparent);
+    opacity: 0.6;
+  }
+
+  .entry-mission .entry-title {
+    font-size: clamp(1.375rem, 2.3vw, 1.875rem);
+  }
+
+  .entry-details {
+    margin-top: 1.625rem;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .entry-details summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink);
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .entry-details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .entry-plus {
+    position: relative;
+    width: 0.75rem;
+    height: 0.75rem;
+    flex: none;
+  }
+
+  .entry-plus::before,
+  .entry-plus::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--accent);
+    transition: transform 0.4s var(--ease-out);
+  }
+
+  .entry-plus::after {
+    transform: rotate(90deg);
+  }
+
+  .entry-details[open] .entry-plus::after {
+    transform: rotate(0deg);
+  }
+
+  .entry-activities {
+    padding: 0.25rem 0 1.5rem 1.125rem;
+    display: grid;
+    gap: 0.75rem;
+    color: var(--ink-dim);
+    font-size: 0.9375rem;
+    line-height: 1.7;
+  }
+
+  .entry-activities li::marker {
+    color: var(--accent);
+  }
+
+  .entry-activities :global(b) {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  .entry-activities :global(ul) {
+    margin-top: 0.5rem;
+    padding-left: 1.125rem;
+    display: grid;
+    gap: 0.375rem;
+  }
+
+  .entry-stack {
+    margin-top: 1.5rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  @media (max-width: 53.75rem) {
+    .timeline {
+      --marker-x: 0.4375rem;
+    }
+
+    .entry {
+      grid-template-columns: 1fr;
+    }
+
+    .entry-date {
+      order: -1;
+      text-align: left;
+      padding: 0 0 0.625rem 2.5rem;
+    }
+
+    .entry-body {
+      padding-left: 2.5rem;
+    }
+
+    .entry-mission .entry-date,
+    .entry-mission .entry-body {
+      padding-left: 4rem;
+    }
+
+    .entry-mission .entry-body::before {
+      display: none;
+    }
+  }
+</style>

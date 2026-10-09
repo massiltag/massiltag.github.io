@@ -1,0 +1,102 @@
+---
+interface Props {
+  name: string;
+  label: string;
+}
+
+const { name, label } = Astro.props;
+const words = name.split(' ');
+---
+
+<div class="loader" aria-hidden="true">
+  <div class="loader-center">
+    <p class="loader-name">
+      {
+        words.map((word) => (
+          <span class="loader-word">
+            {[...word].map((char) => (
+              <span class="loader-char">{char}</span>
+            ))}
+          </span>
+        ))
+      }
+    </p>
+    <div class="loader-bar"><span class="loader-bar-fill"></span></div>
+    <div class="loader-meta">
+      <span>{label}</span>
+      <span class="loader-count">000</span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .loader {
+    display: none;
+  }
+
+  :global(.show-intro) .loader {
+    position: fixed;
+    inset: 0;
+    z-index: 180;
+    display: grid;
+    place-items: center;
+    background: var(--bg);
+  }
+
+  .loader-center {
+    width: min(32.5rem, 84vw);
+  }
+
+  .loader-name {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: clamp(2.125rem, 6vw, 3.5rem);
+    line-height: 1;
+    letter-spacing: -0.05em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 0.28em;
+    overflow: hidden;
+    padding-bottom: 0.1em;
+  }
+
+  .loader-word {
+    display: inline-flex;
+  }
+
+  .loader-char {
+    display: inline-block;
+    transform: translateY(110%);
+  }
+
+  .loader-bar {
+    position: relative;
+    height: 1px;
+    margin: 1.75rem 0 0.875rem;
+    background: var(--line);
+    overflow: hidden;
+  }
+
+  .loader-bar-fill {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, var(--accent-deep), var(--accent-soft));
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  .loader-meta {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  .loader-count {
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+</style>

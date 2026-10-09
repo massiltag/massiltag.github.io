@@ -1,0 +1,183 @@
+---
+import { getContent } from '../i18n';
+import type { Lang } from '../i18n/types';
+
+interface Props {
+  lang: Lang;
+}
+
+const t = getContent(Astro.props.lang);
+const items = t.projects.items.filter((p) => !p.disabled);
+---
+
+<section class="section projects" id="projects">
+  <div class="section-inner">
+    <header class="projects-head">
+      <p class="section-label">{t.projects.label}</p>
+      <h2 class="section-title" data-split set:html={t.projects.title} />
+      <p class="section-intro" data-reveal>{t.projects.intro}</p>
+    </header>
+
+    <ol class="project-list">
+      {
+        items.map((p, i) => (
+          <li class="project" data-reveal>
+            <span class="project-index">{String(i + 1).padStart(2, '0')}</span>
+            <div class="project-main">
+              <h3 class="project-name">{p.name}</h3>
+              <p class="project-description">{p.description}</p>
+            </div>
+            <div class="project-side">
+              <span class="project-year">{p.year}</span>
+              {p.link && (
+                <a class="project-link" href={p.link} target="_blank" rel="noopener noreferrer">
+                  <span>{p.linkKind === 'appstore' ? t.ui.viewAppStore : t.ui.viewCode}</span>
+                  <svg viewBox="0 0 16 16" aria-hidden="true">
+                    <path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1.2" />
+                  </svg>
+                </a>
+              )}
+            </div>
+            <span class="project-sweep" aria-hidden="true" />
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</section>
+
+<style>
+  .projects-head {
+    margin-bottom: clamp(3.5rem, 8vw, 6rem);
+  }
+
+  .project-list {
+    list-style: none;
+    padding: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .project {
+    position: relative;
+    display: grid;
+    grid-template-columns: 4.375rem minmax(0, 1fr) 10.625rem;
+    gap: 1.5rem;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid var(--line);
+    transition: background-color 0.5s ease;
+  }
+
+  .project-sweep {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.9s var(--ease-out);
+  }
+
+  .project:hover .project-sweep {
+    transform: scaleX(1);
+  }
+
+  .project-index {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+    padding-top: 0.75rem;
+  }
+
+  .project-name {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: clamp(1.875rem, 4vw, 3.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.045em;
+    transition: transform 0.6s var(--ease-out), color 0.6s ease;
+  }
+
+  .project:hover .project-name {
+    transform: translateX(0.875rem);
+    color: var(--accent-soft);
+  }
+
+  .project-description {
+    margin-top: 1.125rem;
+    max-width: 64ch;
+    color: var(--ink-dim);
+    font-size: 0.9688rem;
+    line-height: 1.7;
+  }
+
+  .project-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.125rem;
+    padding-top: 0.75rem;
+  }
+
+  .project-year {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    color: var(--ink-faint);
+  }
+
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.5625rem 1rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 0.5rem;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.02em;
+    color: var(--ink);
+    transition: border-color 0.35s ease, background-color 0.35s ease, color 0.35s ease;
+  }
+
+  .project-link svg {
+    width: 0.75rem;
+    height: 0.75rem;
+    transition: transform 0.45s var(--ease-out);
+  }
+
+  .project-link:hover {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  .project-link:hover svg {
+    transform: translate(0.125rem, -0.125rem);
+  }
+
+  @media (max-width: 47.5rem) {
+    .project {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+      padding: 2rem 0;
+    }
+
+    .project-index {
+      padding-top: 0;
+    }
+
+    .project-side {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 0.375rem;
+    }
+
+    .project:hover .project-name {
+      transform: none;
+    }
+  }
+</style>

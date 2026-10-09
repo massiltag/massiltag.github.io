@@ -1,0 +1,227 @@
+---
+import '@fontsource-variable/geist';
+import '@fontsource-variable/geist-mono';
+import '../styles/global.css';
+
+import Header from '../components/Header.astro';
+import Loader from '../components/Loader.astro';
+import { getContent, pathFor, profile } from '../i18n';
+import type { Lang } from '../i18n/types';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = getContent(lang);
+const site = Astro.site ?? new URL('https://taguemout.com');
+const canonical = new URL(pathFor(lang), site).href;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{t.meta.title}</title>
+    <meta name="description" content={t.meta.description} />
+    <meta name="theme-color" content="#0b0c0f" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="fr" href={new URL(pathFor('fr'), site).href} />
+    <link rel="alternate" hreflang="en" href={new URL(pathFor('en'), site).href} />
+    <link rel="alternate" hreflang="x-default" href={new URL(pathFor('en'), site).href} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={t.meta.title} />
+    <meta property="og:description" content={t.meta.description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={lang === 'fr' ? 'fr_FR' : 'en_US'} />
+    <script is:inline>
+      (function () {
+        var root = document.documentElement;
+        root.classList.add('js');
+        var seen = false;
+        try {
+          seen = sessionStorage.getItem('intro-seen') === '1';
+        } catch (e) {}
+        if (!seen && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          root.classList.add('show-intro');
+        }
+        setTimeout(function () {
+          if (!root.classList.contains('motion-ready')) root.classList.add('motion-failed');
+        }, 6000);
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{t.ui.skipToContent}</a>
+
+    <Loader name={profile.name} label={t.ui.loading} />
+
+    <div class="stage" aria-hidden="true">
+      <canvas id="circuit"></canvas>
+      <div class="stage-vignette"></div>
+    </div>
+
+    <Header lang={lang} />
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <div class="scroll-rail" aria-hidden="true">
+      <div class="scroll-thumb"></div>
+    </div>
+
+    <div class="cursor" aria-hidden="true">
+      <div class="cursor-ring"></div>
+      <div class="cursor-dot"></div>
+    </div>
+
+    <div class="grain" aria-hidden="true"></div>
+
+    <script>
+      import '../scripts/main';
+    </script>
+  </body>
+</html>
+
+<style>
+  .stage {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  #circuit {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .stage-vignette {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, transparent 60%, rgba(11, 12, 15, 0.6) 100%);
+  }
+
+  main {
+    position: relative;
+    z-index: 2;
+  }
+
+  /* ---------- custom scroll rail: starts below the header ---------- */
+  .scroll-rail {
+    position: fixed;
+    top: calc(var(--header-h) + 0.75rem);
+    bottom: 0.75rem;
+    right: 0.375rem;
+    width: 0.625rem;
+    z-index: 60;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: auto;
+    cursor: grab;
+  }
+
+  .scroll-rail::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background: var(--line);
+  }
+
+  :global(.rail-ready) .scroll-rail {
+    opacity: 1;
+  }
+
+  .scroll-thumb {
+    position: absolute;
+    left: 50%;
+    width: 0.1875rem;
+    margin-left: -1.5px;
+    border-radius: 0.1875rem;
+    background: var(--accent);
+    box-shadow: 0 0 0.75rem rgba(124, 140, 255, 0.5);
+    transition: width 0.25s ease, margin-left 0.25s ease;
+  }
+
+  .scroll-rail:hover .scroll-thumb,
+  :global(.rail-dragging) .scroll-thumb {
+    width: 0.3125rem;
+    margin-left: -0.1563rem;
+  }
+
+  :global(.rail-dragging) .scroll-rail {
+    cursor: grabbing;
+  }
+
+  /* ---------- custom cursor ---------- */
+  .cursor {
+    display: none;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    :global(.cursor-ready) .cursor {
+      display: block;
+    }
+
+    :global(.cursor-ready),
+    :global(.cursor-ready) :global(a),
+    :global(.cursor-ready) :global(button),
+    :global(.cursor-ready) :global(summary) {
+      cursor: none;
+    }
+  }
+
+  .cursor-dot,
+  .cursor-ring {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 150;
+    pointer-events: none;
+    border-radius: 50%;
+    will-change: transform;
+  }
+
+  .cursor-dot {
+    width: 0.375rem;
+    height: 0.375rem;
+    margin: -0.1875rem 0 0 -0.1875rem;
+    background: var(--accent-soft);
+  }
+
+  .cursor-ring {
+    width: 2.375rem;
+    height: 2.375rem;
+    margin: -1.1875rem 0 0 -1.1875rem;
+    border: 1px solid rgba(124, 140, 255, 0.6);
+    transition:
+      width 0.35s var(--ease-out),
+      height 0.35s var(--ease-out),
+      margin 0.35s var(--ease-out),
+      background-color 0.35s ease,
+      border-color 0.35s ease;
+  }
+
+  :global(.cursor-hover) .cursor-ring {
+    width: 4.25rem;
+    height: 4.25rem;
+    margin: -2.125rem 0 0 -2.125rem;
+    background-color: rgba(124, 140, 255, 0.1);
+    border-color: var(--accent);
+  }
+
+  :global(.cursor-down) .cursor-ring {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: -0.875rem 0 0 -0.875rem;
+  }
+</style>

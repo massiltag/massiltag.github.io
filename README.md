@@ -1,27 +1,22 @@
-# Portfolio
+# taguemout.com
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+Personal portfolio of Massil Taguemout, built with [Astro](https://astro.build), a scroll-driven printed-circuit animation (Canvas 2D), [GSAP](https://gsap.com) and [Lenis](https://lenis.darkroom.engineering).
 
-## Development server
+## Development
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```sh
+npm install
+npm run dev      # http://localhost:4321
+npm run build    # type-check, then build into docs/
+npm run preview  # serve the build locally
+```
 
-## Code scaffolding
+Requires Node 20.19+ (Astro 5).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Content
 
-## Build
+All text lives in `src/i18n/`: `en.ts` (default, served at `/`) and `fr.ts` (served at `/fr/`), both typed by `types.ts`. Set `disabled: true` on a project to hide it.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Deployment
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+GitHub Pages serves the committed `docs/` folder. `npm run build` writes there, and `public/CNAME` and `public/.nojekyll` are copied along so the custom domain and the `_astro/` assets keep working.

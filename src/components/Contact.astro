@@ -1,0 +1,194 @@
+---
+import { getContent, profile } from '../i18n';
+import type { Lang } from '../i18n/types';
+
+interface Props {
+  lang: Lang;
+}
+
+const t = getContent(Astro.props.lang);
+const year = new Date().getFullYear();
+---
+
+<section class="section contact" id="contact">
+  <div class="section-inner">
+    <p class="section-label">{t.contact.label}</p>
+    <h2 class="contact-title" data-split set:html={t.contact.title} />
+    <p class="contact-text" data-reveal>{t.contact.text}</p>
+
+    <a class="contact-email" href={`mailto:${profile.email}`} data-reveal>
+      <span class="contact-email-text">{profile.email}</span>
+      <span class="contact-email-arrow" aria-hidden="true">
+        <svg viewBox="0 0 16 16"><path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1" /></svg>
+      </span>
+    </a>
+
+    <ul class="contact-links" data-reveal>
+      <li><a href={profile.linkedin} target="_blank" rel="noopener noreferrer" data-magnetic>LinkedIn</a></li>
+      <li><a href={profile.github} target="_blank" rel="noopener noreferrer" data-magnetic>GitHub</a></li>
+      <li class="contact-location">{t.contact.location}</li>
+    </ul>
+  </div>
+
+  <footer class="footer">
+    <span>© {year} {profile.name}. {t.footer.rights}</span>
+    <span>{t.footer.built}</span>
+  </footer>
+</section>
+
+<style>
+  .contact {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+
+  .contact .section-inner {
+    width: 100%;
+  }
+
+  .contact-title {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: clamp(2.75rem, 7.4vw, 7.375rem);
+    line-height: 1;
+    letter-spacing: -0.055em;
+    max-width: 12ch;
+  }
+
+  .contact-text {
+    margin-top: 2.25rem;
+    max-width: 44ch;
+    color: var(--ink-dim);
+    font-size: 1.0625rem;
+  }
+
+  .contact-email {
+    margin-top: 4rem;
+    display: inline-flex;
+    align-items: center;
+    gap: clamp(1rem, 2vw, 1.75rem);
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: clamp(1.625rem, 4.4vw, 4rem);
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    color: var(--ink);
+    position: relative;
+  }
+
+  .contact-email-text {
+    position: relative;
+  }
+
+  .contact-email-text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.04em;
+    height: 1px;
+    background: var(--accent);
+    transform: scaleX(0.25);
+    transform-origin: left;
+    transition: transform 0.8s var(--ease-out);
+  }
+
+  .contact-email:hover .contact-email-text::after {
+    transform: scaleX(1);
+  }
+
+  .contact-email-arrow {
+    display: grid;
+    place-items: center;
+    width: clamp(2.75rem, 5vw, 4.5rem);
+    height: clamp(2.75rem, 5vw, 4.5rem);
+    border: 1px solid var(--accent);
+    border-radius: 50%;
+    background: var(--bg);
+    flex: none;
+    transition: background-color 0.4s ease, color 0.4s ease, box-shadow 0.8s ease;
+  }
+
+  /* set by the circuit once its bus plugs into the arrow */
+  .contact-email-text {
+    transition: color 0.8s ease, text-shadow 0.8s ease;
+  }
+
+  .contact-email:global(.is-powered) .contact-email-text {
+    color: #fff;
+    text-shadow: 0 0 1.75rem rgba(124, 140, 255, 0.55);
+  }
+
+  .contact-email:global(.is-powered) .contact-email-arrow {
+    box-shadow: 0 0 0 0.375rem rgba(124, 140, 255, 0.12), 0 0 2.25rem rgba(124, 140, 255, 0.55);
+  }
+
+  .contact-email-arrow svg {
+    width: 38%;
+    height: 38%;
+    transition: transform 0.5s var(--ease-out);
+  }
+
+  .contact-email:hover .contact-email-arrow {
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  .contact-email:hover .contact-email-arrow svg {
+    transform: rotate(45deg);
+  }
+
+  .contact-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.875rem 2.5rem;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .contact-links a {
+    display: inline-block;
+    padding: 0.375rem 0;
+    color: var(--ink);
+    border-bottom: 1px solid var(--line-strong);
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .contact-links a:hover {
+    color: var(--accent-soft);
+    border-color: var(--accent);
+  }
+
+  .contact-location {
+    padding: 0.375rem 0;
+    color: var(--ink-faint);
+  }
+
+  .footer {
+    max-width: var(--max);
+    width: 100%;
+    margin: 6.25rem auto 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.625rem 1.875rem;
+    font-size: 0.75rem;
+    color: var(--ink-faint);
+  }
+
+  @media (max-width: 37.5rem) {
+    .contact-email {
+      font-size: clamp(1.375rem, 7.4vw, 1.875rem);
+    }
+  }
+</style>
