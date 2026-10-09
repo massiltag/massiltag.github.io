@@ -104,7 +104,6 @@ typings/
 
 # Angular
 .angular
-package-lock.json
 
 # IDE
 .idea/
