@@ -1,6 +1,7 @@
 ---
 import { getContent, pathFor } from '../i18n';
 import type { Lang } from '../i18n/types';
+import { settings } from '../settings';
 
 interface Props {
   lang: Lang;
@@ -40,10 +41,14 @@ const links = [
   </nav>
 
   <div class="tools">
-    <button class="sound" type="button" aria-pressed="false" data-label-on={t.ui.soundOff} data-label-off={t.ui.soundOn} aria-label={t.ui.soundOn}>
-      <span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-      <span class="sound-text">{t.ui.sound}</span>
-    </button>
+    {
+      settings.sound && (
+        <button class="sound" type="button" aria-pressed="false" data-label-on={t.ui.soundOff} data-label-off={t.ui.soundOn} aria-label={t.ui.soundOn}>
+          <span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          <span class="sound-text">{t.ui.sound}</span>
+        </button>
+      )
+    }
 
     <div class="lang" role="group" aria-label="Language">
       <span class="lang-current" aria-current="true">{lang.toUpperCase()}</span>

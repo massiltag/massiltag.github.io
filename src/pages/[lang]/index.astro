@@ -1,0 +1,16 @@
+---
+import Home from '../../components/Home.astro';
+import { languages } from '../../i18n';
+import type { Lang } from '../../i18n/types';
+import { settings } from '../../settings';
+
+// only the non-default language gets a prefixed page; nothing at all when the site is disabled
+export function getStaticPaths() {
+  if (settings.disabled) return [];
+  return languages.filter((lang) => lang !== settings.defaultLanguage).map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Lang;
+---
+
+<Home lang={lang} />

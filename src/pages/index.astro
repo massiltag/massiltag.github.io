@@ -1,5 +1,7 @@
 ---
 import Home from '../components/Home.astro';
+import Offline from '../components/Offline.astro';
+import { settings } from '../settings';
 ---
 
-<Home lang="en" />
+{settings.disabled ? <Offline /> : <Home lang={settings.defaultLanguage} />}

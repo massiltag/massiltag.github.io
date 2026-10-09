@@ -2,7 +2,7 @@ import type { Content } from './types';
 
 export const en: Content = {
   meta: {
-    title: 'Massil Taguemout — IT Consultant Engineer',
+    title: 'Massil Taguemout - IT Consultant Engineer',
     description:
       'Massil Taguemout, fullstack Java / Angular IT Consultant Engineer based in Paris. Digital transformation for insurance and banking.',
   },

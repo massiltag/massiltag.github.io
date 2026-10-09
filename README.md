@@ -17,6 +17,16 @@ Requires Node 20.19+ (Astro 5).
 
 All text lives in `src/i18n/`: `en.ts` (default, served at `/`) and `fr.ts` (served at `/fr/`), both typed by `types.ts`. Set `disabled: true` on a project to hide it.
 
+## Settings
+
+`src/settings.ts` holds the site switches, applied on the next build:
+
+- `disabled`: when `true`, the whole site is replaced by a single page showing only the glowing "MT" chip (click to email), hidden from search engines. No portfolio content is built or published.
+- `sound`: show or hide the ambient sound toggle.
+- `defaultLanguage`: language served at `/` (`'en'` or `'fr'`); the other one is served at `/fr/` or `/en/`.
+
+`npm run build` ends with `scripts/prune-assets.mjs`, which deletes any built asset no page references.
+
 ## Deployment
 
 GitHub Pages serves the committed `docs/` folder. `npm run build` writes there, and `public/CNAME` and `public/.nojekyll` are copied along so the custom domain and the `_astro/` assets keep working.

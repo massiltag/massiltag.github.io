@@ -5,6 +5,8 @@
  * Everything is measured from the real layout, in document coordinates, and drawn on one fixed canvas.
  */
 
+import { ACCENT, careerVersion, drawChip } from './chip';
+
 export interface Circuit {
   rebuild(): void;
   setPointer(clientX: number, clientY: number): void;
@@ -47,7 +49,6 @@ interface Signal {
   speed: number;
 }
 
-const ACCENT = '124, 140, 255';
 const HOT = '230, 233, 255';
 const HEAD_AT = 0.66;
 const SPACING = 9;
@@ -55,9 +56,6 @@ const BUS = 5;
 const CHAMFER = 22;
 const GRID = 32;
 
-/** The chip's "firmware version": years since 2019, bumped every January 1st. */
-const CAREER_START_YEAR = 2019;
-const careerVersion = () => `v${new Date().getFullYear() - CAREER_START_YEAR}.0`;
 
 function seeded(seed: number) {
   return () => {
@@ -431,89 +429,10 @@ export function createCircuit(canvas: HTMLCanvasElement, { reducedMotion }: Opti
     ctx.stroke();
   };
 
-  const roundRect = (x: number, y: number, w: number, h: number, r: number) => {
-    ctx.beginPath();
-    ctx.moveTo(x + r, y);
-    ctx.arcTo(x + w, y, x + w, y + h, r);
-    ctx.arcTo(x + w, y + h, x, y + h, r);
-    ctx.arcTo(x, y + h, x, y, r);
-    ctx.arcTo(x, y, x + w, y, r);
-    ctx.closePath();
-  };
-
-  const drawChip = () => {
+  const paintChip = () => {
     if (!chip) return;
-    const s = chip.width;
-    const x = chip.left;
-    const y = chip.top;
     const pulse = reducedMotion ? 0.5 : 0.5 + 0.5 * Math.sin(time * 1.8);
-
-    // halo
-    const halo = ctx.createRadialGradient(chip.cx, chip.cy, s * 0.1, chip.cx, chip.cy, s * 1.1);
-    halo.addColorStop(0, `rgba(${ACCENT}, ${(0.16 + 0.08 * pulse) * power})`);
-    halo.addColorStop(1, `rgba(${ACCENT}, 0)`);
-    ctx.fillStyle = halo;
-    ctx.fillRect(chip.cx - s * 1.2, chip.cy - s * 1.2, s * 2.4, s * 2.4);
-
-    // pins on the four sides; the bottom ones feed the bus
-    const pins = mobile ? 4 : 5;
-    const pitch = s * 0.16;
-    const pinLen = 12;
-    ctx.lineWidth = 2;
-    ctx.lineCap = 'butt';
-    for (let i = 0; i < pins; i++) {
-      const o = (i - (pins - 1) / 2) * pitch;
-      ctx.strokeStyle = `rgba(${ACCENT}, ${0.25 + 0.45 * power})`;
-      ctx.beginPath();
-      ctx.moveTo(chip.cx + o, y);
-      ctx.lineTo(chip.cx + o, y - pinLen);
-      ctx.moveTo(x, chip.cy + o);
-      ctx.lineTo(x - pinLen, chip.cy + o);
-      ctx.moveTo(x + s, chip.cy + o);
-      ctx.lineTo(x + s + pinLen, chip.cy + o);
-      ctx.stroke();
-      if (!mobile) {
-        ctx.strokeStyle = `rgba(${ACCENT}, ${0.5 + 0.5 * power})`;
-        ctx.beginPath();
-        ctx.moveTo(chip.cx + o, y + s);
-        ctx.lineTo(chip.cx + o, y + s + 6);
-        ctx.stroke();
-      }
-    }
-
-    // package
-    roundRect(x, y, s, s, s * 0.06);
-    ctx.fillStyle = '#101117';
-    ctx.fill();
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = `rgba(${ACCENT}, ${0.3 + 0.35 * power})`;
-    ctx.stroke();
-
-    // die
-    const inset = s * 0.2;
-    roundRect(x + inset, y + inset, s - inset * 2, s - inset * 2, s * 0.03);
-    const die = ctx.createLinearGradient(x, y, x + s, y + s);
-    die.addColorStop(0, '#191b2b');
-    die.addColorStop(1, '#0d0e14');
-    ctx.fillStyle = die;
-    ctx.fill();
-    ctx.strokeStyle = `rgba(${ACCENT}, ${0.18 + 0.3 * power * (0.7 + 0.3 * pulse)})`;
-    ctx.stroke();
-
-    ctx.fillStyle = `rgba(237, 237, 240, ${0.55 + 0.45 * power})`;
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    ctx.font = `700 ${Math.round(s * 0.2)}px "Geist Variable", Inter, sans-serif`;
-    ctx.fillText('MT', chip.cx, chip.cy - s * 0.03);
-    ctx.fillStyle = `rgba(${ACCENT}, ${0.45 + 0.4 * power})`;
-    ctx.font = `400 ${Math.max(8, Math.round(s * 0.055))}px "Geist Mono Variable", ui-monospace, monospace`;
-    ctx.fillText(version, chip.cx, chip.cy + s * 0.13);
-
-    // pin-one marker
-    ctx.beginPath();
-    ctx.arc(x + s * 0.09, y + s * 0.09, s * 0.018, 0, Math.PI * 2);
-    ctx.fillStyle = `rgba(${ACCENT}, ${0.4 + 0.5 * power})`;
-    ctx.fill();
+    drawChip(ctx, { x: chip.left, y: chip.top, size: chip.width }, { power, pulse, pins: mobile ? 4 : 5, feedPins: !mobile, version });
   };
 
   const drawBranches = (p: number) => {
@@ -677,7 +596,7 @@ export function createCircuit(canvas: HTMLCanvasElement, { reducedMotion }: Opti
       ctx.globalCompositeOperation = 'source-over';
 
       // the chip goes on top of the text fades and the torch, so neither marks it
-      drawChip();
+      paintChip();
 
       if (!reducedMotion) {
         // signals keep flowing through the part of the board that is already built

@@ -2,7 +2,7 @@ import type { Content } from './types';
 
 export const fr: Content = {
   meta: {
-    title: 'Massil Taguemout — Consultant Ingénieur IT',
+    title: 'Massil Taguemout - Consultant Ingénieur IT',
     description:
       'Massil Taguemout, Consultant Ingénieur IT fullstack Java / Angular à Paris. Transformation digitale dans l’assurance et la banque.',
   },

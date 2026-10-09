@@ -1,0 +1,58 @@
+---
+import '@fontsource-variable/geist';
+import '@fontsource-variable/geist-mono';
+import { profile } from '../i18n';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MT</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#0b0c0f" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+  </head>
+  <body>
+    <canvas id="offline" aria-hidden="true"></canvas>
+    <a class="chip-link" href={`mailto:${profile.email}`} aria-label="Contact" title="Contact"></a>
+    <script>
+      import '../scripts/offline';
+    </script>
+  </body>
+</html>
+
+<style is:global>
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #0b0c0f;
+  }
+
+  #offline {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  /* invisible hit area laid exactly over the chip drawn on the canvas */
+  .chip-link {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: var(--chip-size, 150px);
+    height: var(--chip-size, 150px);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+
+  .chip-link:focus-visible {
+    outline: 1px solid #7c8cff;
+    outline-offset: 8px;
+  }
+</style>
