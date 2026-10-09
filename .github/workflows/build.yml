@@ -1,10 +1,21 @@
-name: Build
+name: Build and deploy
 
 on:
   push:
     branches: [develop]
   pull_request:
     branches: [develop]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# one deployment at a time; a newer push waits instead of cancelling a running deploy
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -14,7 +25,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - run: npm ci
@@ -22,11 +33,19 @@ jobs:
       # type-check, build into docs/, prune unused assets
       - run: npm run build
 
-      # GitHub Pages serves the committed docs/: fail if it no longer matches the source
-      - name: Check docs/ is up to date
-        run: |
-          if [ -n "$(git status --porcelain -- docs)" ]; then
-            git status --short -- docs
-            echo "::error::docs/ is out of date. Run 'npm run build' and commit docs/."
-            exit 1
-          fi
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: docs
+
+  # pull requests only build; pushes to develop publish the site
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

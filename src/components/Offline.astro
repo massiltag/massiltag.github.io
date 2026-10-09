@@ -5,7 +5,7 @@ import { profile } from '../i18n';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="offline">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,15 +24,16 @@ import { profile } from '../i18n';
 </html>
 
 <style is:global>
-  html,
-  body {
+  /* is:global styles land in the CSS shared with the full site: everything is keyed to html.offline */
+  html.offline,
+  html.offline body {
     margin: 0;
     height: 100%;
     overflow: hidden;
     background: #0b0c0f;
   }
 
-  #offline {
+  html.offline #offline {
     position: fixed;
     inset: 0;
     width: 100%;
@@ -41,7 +42,7 @@ import { profile } from '../i18n';
   }
 
   /* invisible hit area laid exactly over the chip drawn on the canvas */
-  .chip-link {
+  html.offline .chip-link {
     position: fixed;
     left: 50%;
     top: 50%;
@@ -51,7 +52,7 @@ import { profile } from '../i18n';
     border-radius: 10px;
   }
 
-  .chip-link:focus-visible {
+  html.offline .chip-link:focus-visible {
     outline: 1px solid #7c8cff;
     outline-offset: 8px;
   }
