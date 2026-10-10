@@ -175,6 +175,7 @@ export const en: Content = {
           'A web app for organizing group events: events shared by link, availability entered on an interactive calendar, and automatic computation of the best common time slots. Stack: Python, Flask, SQLAlchemy, jQuery, FullCalendar.',
         link: 'https://github.com/massiltag/melmi',
         linkKind: 'github',
+        disabled: true,
       },
       {
         name: 'This portfolio',

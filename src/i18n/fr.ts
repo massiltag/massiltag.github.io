@@ -175,6 +175,7 @@ export const fr: Content = {
           'Application web d’organisation d’événements de groupe : création d’événements partageables par lien, saisie des disponibilités sur un calendrier interactif et calcul automatique des meilleurs créneaux communs. Environnement : Python, Flask, SQLAlchemy, jQuery, FullCalendar.',
         link: 'https://github.com/massiltag/melmi',
         linkKind: 'github',
+        disabled: true,
       },
       {
         name: 'Ce portfolio',

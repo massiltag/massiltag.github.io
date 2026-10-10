@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://taguemout.com',
-  // GitHub Pages publishes the committed docs/ folder
+  // built by GitHub Actions and deployed to Pages, see .github/workflows/build.yml
   outDir: './docs',
   devToolbar: { enabled: false },
 });

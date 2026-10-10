@@ -111,3 +111,6 @@ typings/
 
 # Astro
 .astro/
+
+# Build output (GitHub Actions builds and deploys it)
+docs/

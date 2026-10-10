@@ -7,7 +7,7 @@ Personal portfolio of Massil Taguemout, built with [Astro](https://astro.build),
 ```sh
 npm install
 npm run dev      # http://localhost:4321
-npm run build    # type-check, then build into docs/
+npm run build    # type-check, then build into docs/ (not committed)
 npm run preview  # serve the build locally
 ```
 
@@ -29,4 +29,4 @@ All text lives in `src/i18n/`: `en.ts` (default, served at `/`) and `fr.ts` (ser
 
 ## Deployment
 
-GitHub Pages serves the committed `docs/` folder. `npm run build` writes there, and `public/CNAME` and `public/.nojekyll` are copied along so the custom domain and the `_astro/` assets keep working.
+Every push to `develop` is built and deployed to GitHub Pages by `.github/workflows/build.yml` (pull requests are only built). The build output in `docs/` is not committed. The custom domain is set in the repository's Pages settings.
