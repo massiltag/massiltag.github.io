@@ -60,7 +60,7 @@ export const en: Content = {
         stack: [],
         missions: [
           {
-            title: 'Lead Developer, AI-Augmented Design & Specification',
+            title: 'Lead Developer, AI-Assisted SDLC',
             employer: 'Allianz Trade',
             date: 'Since October 2025',
             description:
